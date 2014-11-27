@@ -7,3 +7,20 @@ application/cache/*
 application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
+gb_testset/adh1.gb
+gb_testset/pET-11c.gbk
+gb_testset/pET-15b.gbk
+gb_testset/pET-20b(+).gbk
+gb_testset/pET-21a(+).gbk
+gb_testset/pET11a.gbk
+gb_testset/pK7FWG2.txt
+gb_testset/pK7WGF2.txt
+tmp/11646b734e68a455c853654d59d42f79d0db7eb2.gb
+tmp/368327f640bc15a67b50145fad2ce3aaf90d8b10.gb
+tmp/6389a33ea3c5cd40d509b998ced4b23198d94336.gb
+tmp/ac690df7070df22f5ca346abb4d6185f6bf6093d.gb
+tmp/sequence.txt
+img/vectormaps/index.html
+img/vectormaps/15_thumb.png
+img/vectormaps/15.png
+gb_testset/pKGWFS7.0 sequence.txt
