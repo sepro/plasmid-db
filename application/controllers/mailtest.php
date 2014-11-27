@@ -7,20 +7,20 @@ class Mailtest extends CI_Controller {
 
 	public function index()
 	{
-
-		
-		$config = array (
-			'protocol' => 'smtp',
-			'smtp_host' => 'ssl://smtp.googlemail.com',
-			'smtp_port' => 465,
-			'smtp_user' => 'oldeeeminer@gmail.com',
-			'smtp_pass' => 'primecoinminer'
+		$config = Array(
+    		'protocol' => 'mail',
+    		'smtp_host' => '',
+    		'smtp_port' => 25,
+    		'smtp_user' => '',
+    		'smtp_pass' => '',
+    		'mailtype'  => 'html', 
+    		'charset'   => 'iso-8859-1'
 		);
 
 		$this->load->library('email', $config);
 		
 		$this->email->from('oldeeeminer@gmail.com');
-		$this->email->to('proost@mpimp-golm.mpg.de');
+		$this->email->to('sebastian.proost@gmail.com');
 		$this->email->subject('Email Test');
 		$this->email->message('Quick test to see if this works with the current setup');
 		

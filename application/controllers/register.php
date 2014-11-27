@@ -21,6 +21,8 @@ class Register extends CI_Controller {
 		
 		$this->load->library('form_validation');
 		
+		$this->load->helper('email');
+		
 		$this->form_validation->set_rules('username', 'username', 'required|min_length[5]|is_unique[users.username]|alpha_numeric');
 		$this->form_validation->set_rules('first_name', 'first name', 'required');
 		$this->form_validation->set_rules('last_name', 'last name', 'required');
@@ -50,6 +52,7 @@ class Register extends CI_Controller {
 				);
 				
 				$this->user_model->insert_user($user);
+				send_email("proost@mpimp-golm.mpg.de", "New plasmid DB User!", "A new user registered, please check the webside to approve the account!");
 				redirect('login');
 			}
 			
