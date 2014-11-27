@@ -1,0 +1,1 @@
+<p>Click <strong><span class="glyphicon glyphicon-edit"></span> Edit insert</strong> to edit this insert.</p>

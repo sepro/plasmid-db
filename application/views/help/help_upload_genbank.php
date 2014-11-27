@@ -1,0 +1,3 @@
+<p>Most tools allow you to store a plasmid with associated sequences and information as a GenBank (gb) file, using this feature it is possible to upload such a file and extract most information automatically.</p>
+<p>Click browse to select a file to upload. Uploads shouldn't be bigger than 2Mb and can only be gb files.</p>
+<p>Click <strong><span class="glyphicon glyphicon-upload"></span> Upload GenBank</strong> to upload the file.</p>

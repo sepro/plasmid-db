@@ -1,0 +1,2 @@
+<p>Enter the name of the insert, a short description and (optionally) add the sequence.</p>
+<p>Click <strong><span class="glyphicon glyphicon-plus"></span> Add insert</strong> to add the new insert to this plasmid. From the plasmid's page additional inserts can be added.</p>

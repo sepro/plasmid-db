@@ -1,0 +1,2 @@
+<p>Fill in your credentials and click <strong><span class="glyphicon glyphicon-ok"></span> Sign up</strong>.</p>
+<p>Initially your account will be set as <strong>Pending</strong>, upon registration an e-mail is send to all admins. They will approve your account and notify you via e-mail when your account is active.</p>

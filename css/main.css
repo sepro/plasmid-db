@@ -1,0 +1,226 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*
+override helvetica font which renders horrible in chrome (win7), firefox falls back to Arial by default
+*/
+
+html {
+	height: 100%;
+}
+body {
+	font-family: Arial, sans-serif;
+	padding-top: 70px;
+	padding-bottom: 0px;
+	height: 100%;
+}
+
+
+.main-content {
+	min-height: 75%;
+	padding-bottom: 25px;
+}
+
+h4 {
+	margin-top, margin-bottom: 0px;
+}
+
+.sequence{
+	white-space: pre-wrap;      /* CSS3 */   
+    white-space: -moz-pre-wrap; /* Firefox */    
+    white-space: -pre-wrap;     /* Opera <7 */   
+    white-space: -o-pre-wrap;   /* Opera 7 */    
+    word-wrap: break-word;      /* IE */
+	font-size: 11px;
+    max-height: 150px;
+    overflow-y:scroll; 
+}
+
+select.form-control {
+	margin-bottom: 15px;
+}
+
+.alert {
+	margin-top: 15px;
+}
+
+span.disabled {
+	color: #c6c6c6;
+}
+
+
+
+div.jumbotron h1 {
+	-moz-text-shadow: 2px 2px 1px #ffffff;
+	-webkit-text-shadow: 2px 2px 1px #ffffff;
+	text-shadow: 2px 2px 1px #ffffff;
+}
+
+.panel-heading h3 {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+/*
+	NAVBAR
+*/
+
+.btn-search {
+	height: 34px;
+	border-top-right-radius: 17px;
+	border-bottom-right-radius: 17px;
+}
+
+.search-field input {
+	border-radius: 17px;
+}
+
+div.navbar {
+	-moz-box-shadow: 0px 3px 10px #b1b1b1;
+	-webkit-box-shadow: 0px 3px 10px #b1b1b1;
+	box-shadow: 0px 3px 10px #b1b1b1;
+}
+
+@media (max-width: 1200px)
+{	
+.quick-help {
+	display: none;
+}
+.navbar-searchbar {
+	display: none;
+}
+}
+
+.navbar-searchbar {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.clearfix {
+	margin-bottom: 20px;
+}
+
+.nopadding {
+	padding: 0px;
+}
+
+/*
+	FOOTER
+*/
+
+#content {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 142px; /* .push must be the same height as .footer */
+}
+
+.footer {
+	padding-top: 25px;
+	background-color: #2f2f2f;
+	color: white;
+}
+
+@media (max-width: 992px)
+{
+#content {
+
+    margin: 0 auto -200px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 200px; /* .push must be the same height as .footer */
+}
+
+}
+
+@media (max-width: 768px)
+{
+#content {
+
+    margin: 0 auto -240px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 240px; /* .push must be the same height as .footer */
+}
+
+}
+
+ul.footer-list li {
+color: #3276B1;
+}
+
+ul.footer-list li > span {
+color: white;
+}
+
+.footer a {
+	color: white;
+}
+
+.question {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	font-weight: bold;
+}
+
+.answer {
+	margin-bottom: 15px;
+}
+
+.logos {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.logos img {
+	max-height: 100px;
+	max-width: 150px;
+}
+
+.person h4 {
+	clear: left;
+}
+
+.person ul {
+	list-style-type: none;
+}
+
+.profile {
+	max-height: 80px;
+	float: left;
+	padding: 2px;
+	border: 1px solid #9dc2e3;
+	margin-right: 30px;
+	margin-bottom: 15px;
+}
+
+.tab-pane {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    border-width: 1px;
+    border-color: #DDD;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.disabled a {
+	pointer-events: none;
+}
+
+/*
+ *  Sortable tables
+ */
+/*table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after {
+	font-family: FontAwesome;
+    content: " \f0dc" 
+}*/
+

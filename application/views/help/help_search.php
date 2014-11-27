@@ -1,0 +1,1 @@
+<p>List of all plasmids that match the keyword in their name, description or resistance.</p>

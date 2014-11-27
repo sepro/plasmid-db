@@ -1,0 +1,2 @@
+<p>Enter the name of the building, the room and the full address of a location where either people have their office or samples are stored.</p>
+<p>Click <strong><span class="glyphicon glyphicon-plus"></span> Add location</strong> to add the new location to the database.</p>

@@ -1,0 +1,2 @@
+<p>Use the navigation bar to find <strong>plasmids</strong>, <strong>users</strong> or <strong>locations</strong>. The search bar can be used to find plasmids based on keyword searched.</p> 
+<p>Clicking your name presents a context menu that allows you tho <strong>change your password and account details</strong>. You can also <strong>log out</strong> from there.</p>
