@@ -52,7 +52,15 @@ class Register extends CI_Controller {
 				);
 				
 				$this->user_model->insert_user($user);
-				send_email("proost@mpimp-golm.mpg.de", "New plasmid DB User!", "A new user registered, please check the webside to approve the account!");
+
+
+				//Send email to admin to notify a new account needs approval and a mail to the user
+				$this->load->model('notification_model');
+		
+				$this->notification_model->new_user_notification($user["username"]);
+				$this->notification_model->registration_success_notification($user["email"]);
+				
+
 				redirect('login');
 			}
 			
