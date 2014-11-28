@@ -168,6 +168,16 @@ class User_model extends CI_Model {
 	
 	public function update_user($user, $userdata)
 	{
+		$this->load->model('user_model');
+		$oldUser = $this->user_model->get_user($user);
+		
+		//if the account type changed send an email
+		if ($oldUser->account != $userdata['account'])
+		{
+			$this->load->model('notification_model');
+			$this->notification_model->account_type_changed($oldUser->email);
+		}
+		
 		$this->db->where('username', $user)->update('users', $userdata);
 	}
 	

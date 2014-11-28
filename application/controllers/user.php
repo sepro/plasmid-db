@@ -130,6 +130,7 @@ class User extends CI_Controller {
 		$this->form_validation->set_rules('location', 'location', '');
 		$this->form_validation->set_rules('account', 'account', '');
 		
+		
 		if ( $this->form_validation->run() !== false) 
 		{
 

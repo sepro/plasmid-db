@@ -57,8 +57,8 @@ class Register extends CI_Controller {
 				//Send email to admin to notify a new account needs approval and a mail to the user
 				$this->load->model('notification_model');
 		
-				$this->notification_model->new_user_notification($user["username"]);
-				$this->notification_model->registration_success_notification($user["email"]);
+				$this->notification_model->new_user($user["username"]);
+				$this->notification_model->registration_success($user["email"]);
 				
 
 				redirect('login');
