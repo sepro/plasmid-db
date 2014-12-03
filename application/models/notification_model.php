@@ -52,27 +52,31 @@ class Notification_model extends CI_Model {
 	
 	public function password_reset_requested($user, $url, $email)
 	{
-			if ($this->config->item('send_notifications'))
-			{
-				$this->email->from($this->config->item('notification_from'));
-				$this->email->to($email);
-				$this->email->subject('Plasmid DB: Reset Password');
-				$this->email->message('A new password was requested for your account (' . $user . '). Please got to ' . $url . ' to confirm the reset and a new password will be mailed to you. (This link will be valid for 48 hours)');	
-				
-				$this->email->send();			
-			}		
+			$this->email->from($this->config->item('notification_from'));
+			$this->email->to($email);
+			$this->email->subject('Plasmid DB: Reset Password');
+			$this->email->message('A new password was requested for your account (' . $user . '). Please got to ' . $url . ' to confirm the reset and a new password will be mailed to you. (This link will be valid for 48 hours)');	
+			
+			$this->email->send();				
+	}
+
+	public function password_reset($password, $email)
+	{
+			$this->email->from($this->config->item('notification_from'));
+			$this->email->to($email);
+			$this->email->subject('Plasmid DB: New Password');
+			$this->email->message('Your Plasmid DB password has been reset. Your new password is ' . $password);	
+			
+			$this->email->send();				
 	}
 	
 	public function recover_username($user, $email)
 	{
-			if ($this->config->item('send_notifications'))
-			{
-				$this->email->from($this->config->item('notification_from'));
-				$this->email->to($email);
-				$this->email->subject('Plasmid DB: Your username');
-				$this->email->message('Your Plasmid DB username is : ' . $user);	
-				
-				$this->email->send();			
-			}			
+			$this->email->from($this->config->item('notification_from'));
+			$this->email->to($email);
+			$this->email->subject('Plasmid DB: Your username');
+			$this->email->message('Your Plasmid DB username is : ' . $user);	
+			
+			$this->email->send();					
 	}
 }

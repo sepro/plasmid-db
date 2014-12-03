@@ -155,6 +155,21 @@ class User_model extends CI_Model {
 		return false;
 	}
 	
+	public function create_reset_key($user)
+	{
+		$key = md5(rand()); //trick to generate a random key
+		$timestamp = date('Y-m-d H:i:s');
+		
+		$data = array(
+			'reset_key' => $key,
+			'reset_date' => $timestamp
+		);
+		
+		$this->db->where('username', $user)->update('users', $data);
+		
+		return $key;
+	}
+	
 	public function count_users()
 	{
 		$q = $this
@@ -188,7 +203,7 @@ class User_model extends CI_Model {
 		$oldUser = $this->user_model->get_user($user);
 		
 		//if the account type changed send an email
-		if ($oldUser->account != $userdata['account'])
+		if (isset($userdata['account']) && $oldUser->account != $userdata['account'])
 		{
 			$this->load->model('notification_model');
 			$this->notification_model->account_type_changed($oldUser->email);
@@ -197,6 +212,18 @@ class User_model extends CI_Model {
 		$this->db->where('username', $user)->update('users', $userdata);
 	}
 	
+	public function reset_password($user)
+	{
+		$password = substr(md5(rand()), 0, 8);
+		
+		$data = array (
+			"password" => sha1($password)
+		);
+		
+		$this->db->where('username', $user)->update('users', $data);
+		
+		return $password;
+	}
 }
 
 ?>

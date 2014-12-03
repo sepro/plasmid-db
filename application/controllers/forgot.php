@@ -46,10 +46,15 @@ class Forgot extends CI_Controller {
 			if($action == 'username')
 			{
 				//code to recover username
-				$this->notification_model->recover_username($user->name, $email);
+				$this->notification_model->recover_username($user->username, $email);
 				$_SESSION['success'] = "Username mailed to <strong>" . $email . "</strong> !";
 			} elseif ($action == 'password') {
 				//code to generate data to reset password
+				$key = $this->user_model->create_reset_key($user->username);
+				
+				$url = base_url() . "forgot/password/" . $user->username . '/' . $key . '/'; 
+				
+				$this->notification_model->password_reset_requested($user->username, $url, $email);
 				
 				$_SESSION['success'] = "Instructions to reset password mailed to <strong>" . $email . "</strong> !";
 			} else {
@@ -62,5 +67,36 @@ class Forgot extends CI_Controller {
 		}
 		
 		redirect('home');
+	}
+	
+	public function password($username, $key)
+	{
+		$this->load->model('user_model');
+		$this->load->model('notification_model');
+		
+		$user = $this->user_model->get_user($username);
+		
+		$reset_date = new DateTime($user->reset_date);
+		$current_date = new DateTime("now");
+		
+		$time_difference=$current_date->diff($reset_date);
+		
+		if($time_difference->days < 2)
+		{
+			if($key == $user->reset_key)
+			{
+				//Valid key, reset password and send email with new password !
+				
+				$new_pass = $this->user_model->reset_password($username);
+				
+				$this->notification_model->password_reset($new_pass, $user->email);
+				
+				$_SESSION['success'] = "Password successfully reset! The new password has been mailed to you.";
+			}
+		} else {
+			$_SESSION['error'] = "Unable to reset password, reset key expired. Request a new key <a href=\"" . base_url() . "forgot/\">here</a>";
+		}
+		
+		redirect('home');			
 	}
 }
