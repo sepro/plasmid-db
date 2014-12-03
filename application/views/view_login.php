@@ -38,7 +38,7 @@
     				'content' => '<span class="glyphicon glyphicon-log-in"></span> Login',
     				'class' => 'btn btn-success'
 				);
-          		echo form_button($data); ?> <a href="<?php echo base_url(); ?>register" class="btn btn-default">Register</a>
+          		echo form_button($data); ?> <a href="<?php echo base_url(); ?>register" class="btn btn-default">Register</a></p><p><a href="<?php echo base_url(); ?>forgot">Forgot username/password?</a>
           	</p>
           	<?php echo form_close(); ?>
           	</div>

@@ -98,6 +98,22 @@ class User_model extends CI_Model {
 		return false;
 	}
 
+	public function get_user_mail($email)
+	{
+		$q = $this
+				->db
+				->where('email', $email)
+				->limit(1)
+				->get('users');
+				
+		if ($q->num_rows > 0) {
+
+			return $q->row();
+		}
+
+		return false;
+	}
+
 	public function get_users_at_location($id)
 	{
 		$q = $this
