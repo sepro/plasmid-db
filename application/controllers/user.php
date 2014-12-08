@@ -131,7 +131,7 @@ class User extends CI_Controller {
 		
 		$this->form_validation->set_rules('first_name', 'first name', 'required');
 		$this->form_validation->set_rules('last_name', 'last name', 'required');
-		$this->form_validation->set_rules('email', 'e-mail address', 'required|valid_email|is_unique[users.email]');
+		//$this->form_validation->set_rules('email', 'e-mail address', 'required|valid_email');
 		$this->form_validation->set_rules('phone', 'phone number', 'required');
 		$this->form_validation->set_rules('location', 'location', '');
 		$this->form_validation->set_rules('account', 'account', '');
@@ -144,7 +144,7 @@ class User extends CI_Controller {
 				"first_name" => $this->input->post('first_name'),
 				"last_name" => $this->input->post('last_name'),
 				"location" => $this->input->post('location'),
-				"email" => $this->input->post('email'),
+				//"email" => $this->input->post('email'),
 				"account" => $this->input->post('account'),
 				"phone" => $this->input->post('phone'),
 			);

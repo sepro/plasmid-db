@@ -47,7 +47,7 @@
           		
           		<div class="form-group">
           		<?php echo form_label('E-mail address', 'email', array( 'class' => 'col-sm-3 control-label'));?>
-          		<div class="col-sm-9"><?php echo form_input('email', $user->email, 'id="email" placeholder="E-mail" class="form-control"');?></div></div>
+          		<div class="col-sm-9"><?php echo form_input('email', $user->email, 'id="email" placeholder="E-mail" class="form-control" disabled="disabled"');?></div></div>
 
           		<div class="form-group">
           		<?php echo form_label('Phone number', 'phone', array( 'class' => 'col-sm-3 control-label'));?>
