@@ -16,6 +16,12 @@ class Password extends CI_Controller {
 		{
 			$_SESSION['warning'] = 'Your account is <strong>awaiting approval from an administrator</strong>, all features are disabled';
 		}
+		
+		if($this->config->item('demonstration'))
+		{
+			$_SESSION['error'] = 'Demo mode active you cannot change your credentials';
+			redirect('user');
+		}
 	}
 
 

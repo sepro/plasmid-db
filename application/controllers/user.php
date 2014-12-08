@@ -116,6 +116,12 @@ class User extends CI_Controller {
 			redirect('user');
 		}
 		
+		if($this->config->item('demonstration'))
+		{
+			$_SESSION['error'] = 'Demo mode active you cannot change your credentials';
+			redirect('user');
+		}
+		
 		$this->load->model('user_model');
 		$this->load->model('location_model');
 		
