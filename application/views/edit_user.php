@@ -21,11 +21,11 @@
 						}
 						if (set_value('email') !== '')
 						{
-							$user->email = set_value('phone');
+							$user->email = set_value('email');
 						}
 						if (set_value('phone') !== '')
 						{
-							$user->phones = set_value('email');
+							$user->phones = set_value('phone');
 						}
 						if (set_value('location') !== '')
 						{
