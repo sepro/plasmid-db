@@ -6,6 +6,12 @@ class Login extends CI_Controller {
 	{
 		parent::__construct();
 		session_start();
+		
+		//check if autologin is enabled, if so redirect to home (which will log in the user)
+		if ($this->config->item('autologin'))
+		{
+			redirect('home');	
+		}
 	}
 
 	public function index()

@@ -6,4 +6,4 @@
 */
                        
 $config['autologin']        = FALSE;
-$config['autologinuser']	= 'username';
+$config['autologinuser']	= 'autouser';
