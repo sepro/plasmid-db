@@ -224,7 +224,7 @@
 			</treenode>
 			<treenode node="foot.inc;PHP:PHP Include;G:\plasmidDB\application\helpers\dompdf\www\usage.php;f15;531;23;531;;G:\plasmidDB\application\helpers\dompdf\www\install.php;f15;170;23;170;;G:\plasmidDB\application\helpers\dompdf\www\index.php;f15;105;23;105;;G:\plasmidDB\application\helpers\dompdf\www\faq.php;f22;307;30;307;;G:\plasmidDB\application\helpers\dompdf\www\examples.php;f15;98;23;98;;G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\www\usage.php;f15;531;23;531;;G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\www\install.php;f15;170;23;170;;G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\www\index.php;f15;105;23;105;;G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\www\faq.php;f22;307;30;307;;G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\www\examples.php;f15;98;23;98;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="footer.php;PHP:PHP Include;G:\plasmidDB\application\views\Codelobster0.php;f15;42;25;42;;G:\plasmidDB_git\plasmid-db\application\views\view_users.php;f15;62;25;62;;G:\plasmidDB_git\plasmid-db\application\views\view_user.php;f15;61;25;61;;G:\plasmidDB_git\plasmid-db\application\views\view_search_results.php;f15;52;25;52;;G:\plasmidDB_git\plasmid-db\application\views\view_registration.php;f15;62;25;62;;G:\plasmidDB_git\plasmid-db\application\views\view_plasmids.php;f15;77;25;77;;G:\plasmidDB_git\plasmid-db\application\views\view_plasmid.php;f15;220;25;220;;G:\plasmidDB_git\plasmid-db\application\views\view_login.php;f15;49;25;49;;G:\plasmidDB_git\plasmid-db\application\views\view_locations.php;f15;60;25;60;;G:\plasmidDB_git\plasmid-db\application\views\view_insert.php;f15;34;25;34;;G:\plasmidDB_git\plasmid-db\application\views\view_home.php;f15;22;25;22;;G:\plasmidDB_git\plasmid-db\application\views\view_error.php;f15;10;25;10;;G:\plasmidDB_git\plasmid-db\application\views\upload_genbank.php;f15;43;25;43;;G:\plasmidDB_git\plasmid-db\application\views\upload_embl.php;f15;43;25;43;;G:\plasmidDB_git\plasmid-db\application\views\edit_user.php;f15;88;25;88;;G:\plasmidDB_git\plasmid-db\application\views\edit_plasmid_location.php;f15;47;25;47;;G:\plasmidDB_git\plasmid-db\application\views\edit_plasmid.php;f15;125;25;125;;G:\plasmidDB_git\plasmid-db\application\views\edit_password.php;f15;47;25;47;;G:\plasmidDB_git\plasmid-db\application\views\edit_location.php;f15;61;25;61;;G:\plasmidDB_git\plasmid-db\application\views\edit_insert.php;f15;61;25;61;;G:\plasmidDB_git\plasmid-db\application\views\add_vectormap.php;f15;42;25;42;;G:\plasmidDB_git\plasmid-db\application\views\add_sequence.php;f15;41;25;41;;G:\plasmidDB_git\plasmid-db\application\views\add_plasmid_location.php;f15;47;25;47;;G:\plasmidDB_git\plasmid-db\application\views\add_plasmid.php;f15;122;25;122;;G:\plasmidDB_git\plasmid-db\application\views\add_location.php;f15;45;25;45;;G:\plasmidDB_git\plasmid-db\application\views\add_insert.php;f15;45;25;45;;G:\plasmidDB_git\plasmid-db\application\views\add_genbank.php;f15;42;25;42;;G:\plasmidDB_git\plasmid-db\application\views\add_embl.php;f15;42;25;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="footer.php;PHP:PHP Include;G:\plasmidDB\application\views\Codelobster0.php;f15;42;25;42;;G:\plasmidDB_git\plasmid-db\application\views\view_users.php;f15;62;25;62;;G:\plasmidDB_git\plasmid-db\application\views\view_user.php;f15;61;25;61;;G:\plasmidDB_git\plasmid-db\application\views\view_search_results.php;f15;52;25;52;;G:\plasmidDB_git\plasmid-db\application\views\view_registration.php;f15;62;25;62;;G:\plasmidDB_git\plasmid-db\application\views\view_plasmids.php;f15;77;25;77;;G:\plasmidDB_git\plasmid-db\application\views\view_plasmid.php;f15;220;25;220;;G:\plasmidDB_git\plasmid-db\application\views\view_locations.php;f15;60;25;60;;G:\plasmidDB_git\plasmid-db\application\views\view_insert.php;f15;34;25;34;;G:\plasmidDB_git\plasmid-db\application\views\view_home.php;f15;22;25;22;;G:\plasmidDB_git\plasmid-db\application\views\view_error.php;f15;10;25;10;;G:\plasmidDB_git\plasmid-db\application\views\upload_genbank.php;f15;43;25;43;;G:\plasmidDB_git\plasmid-db\application\views\upload_embl.php;f15;43;25;43;;G:\plasmidDB_git\plasmid-db\application\views\edit_plasmid_location.php;f15;47;25;47;;G:\plasmidDB_git\plasmid-db\application\views\edit_plasmid.php;f15;125;25;125;;G:\plasmidDB_git\plasmid-db\application\views\edit_location.php;f15;61;25;61;;G:\plasmidDB_git\plasmid-db\application\views\add_vectormap.php;f15;42;25;42;;G:\plasmidDB_git\plasmid-db\application\views\add_sequence.php;f15;41;25;41;;G:\plasmidDB_git\plasmid-db\application\views\add_plasmid_location.php;f15;47;25;47;;G:\plasmidDB_git\plasmid-db\application\views\add_plasmid.php;f15;122;25;122;;G:\plasmidDB_git\plasmid-db\application\views\add_location.php;f15;45;25;45;;G:\plasmidDB_git\plasmid-db\application\views\add_genbank.php;f15;42;25;42;;G:\plasmidDB_git\plasmid-db\application\views\add_embl.php;f15;42;25;42;;G:\plasmidDB_git\plasmid-db\application\views\add_insert.php;f15;45;25;45;;G:\plasmidDB_git\plasmid-db\application\views\edit_password.php;f15;47;25;47;;G:\plasmidDB_git\plasmid-db\application\views\edit_insert.php;f15;61;25;61;;G:\plasmidDB_git\plasmid-db\application\views\Codelobster0.php;f15;50;25;50;;G:\plasmidDB_git\plasmid-db\application\views\view_login.php;f15;49;25;49;;G:\plasmidDB_git\plasmid-db\application\views\view_forgot.php;f15;50;25;50;;G:\plasmidDB_git\plasmid-db\application\views\edit_user.php;f15;88;25;88;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="FOPEN_READ;PHP:PHP Word;G:\plasmidDB_git\plasmid-db\application\config\constants.php;f8;29;18;29;;;;vpos;;v;;r'rb';;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -244,9 +244,9 @@
 			</treenode>
 			<treenode node="head.inc;PHP:PHP Include;G:\plasmidDB\application\helpers\dompdf\www\usage.php;f15;0;23;0;;G:\plasmidDB\application\helpers\dompdf\www\install.php;f15;0;23;0;;G:\plasmidDB\application\helpers\dompdf\www\index.php;f15;0;23;0;;G:\plasmidDB\application\helpers\dompdf\www\faq.php;f15;0;23;0;;G:\plasmidDB\application\helpers\dompdf\www\examples.php;f15;20;23;20;;G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\www\usage.php;f15;0;23;0;;G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\www\install.php;f15;0;23;0;;G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\www\index.php;f15;0;23;0;;G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\www\faq.php;f15;0;23;0;;G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\www\examples.php;f15;20;23;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="header.php;PHP:PHP Include;G:\plasmidDB\application\views\Codelobster0.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\view_users.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\view_user.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\view_search_results.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\view_registration.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\view_plasmids.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\view_plasmid.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\view_login.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\view_locations.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\view_insert.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\view_home.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\view_error.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\upload_genbank.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\upload_embl.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\edit_user.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\edit_plasmid_location.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\edit_plasmid.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\edit_password.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\edit_location.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\edit_insert.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\add_vectormap.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\add_sequence.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\add_plasmid_location.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\add_plasmid.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\add_location.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\add_insert.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\add_genbank.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\add_embl.php;f15;0;25;0;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="header.php;PHP:PHP Include;G:\plasmidDB\application\views\Codelobster0.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\view_users.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\view_user.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\view_search_results.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\view_registration.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\view_plasmids.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\view_plasmid.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\view_locations.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\view_insert.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\view_home.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\view_error.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\upload_genbank.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\upload_embl.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\edit_plasmid_location.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\edit_plasmid.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\edit_location.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\add_vectormap.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\add_sequence.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\add_plasmid_location.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\add_plasmid.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\add_location.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\add_genbank.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\add_embl.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\add_insert.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\edit_password.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\edit_insert.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\Codelobster0.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\view_login.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\view_forgot.php;f15;0;25;0;;G:\plasmidDB_git\plasmid-db\application\views\edit_user.php;f15;0;25;0;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="help/help_template.php;PHP:PHP Include;G:\plasmidDB\application\views\Codelobster0.php;f17;35;39;35;;G:\plasmidDB_git\plasmid-db\application\views\view_users.php;f17;55;39;55;;G:\plasmidDB_git\plasmid-db\application\views\view_search_results.php;f17;46;39;46;;G:\plasmidDB_git\plasmid-db\application\views\view_registration.php;f17;57;39;57;;G:\plasmidDB_git\plasmid-db\application\views\view_plasmids.php;f17;71;39;71;;G:\plasmidDB_git\plasmid-db\application\views\view_locations.php;f17;54;39;54;;G:\plasmidDB_git\plasmid-db\application\views\view_insert.php;f17;29;39;29;;G:\plasmidDB_git\plasmid-db\application\views\view_home.php;f17;16;39;16;;G:\plasmidDB_git\plasmid-db\application\views\upload_genbank.php;f17;36;39;36;;G:\plasmidDB_git\plasmid-db\application\views\upload_embl.php;f17;36;39;36;;G:\plasmidDB_git\plasmid-db\application\views\edit_user.php;f17;83;39;83;;G:\plasmidDB_git\plasmid-db\application\views\edit_plasmid_location.php;f17;39;39;39;;G:\plasmidDB_git\plasmid-db\application\views\edit_plasmid.php;f17;118;39;118;;G:\plasmidDB_git\plasmid-db\application\views\edit_password.php;f17;39;39;39;;G:\plasmidDB_git\plasmid-db\application\views\edit_location.php;f17;53;39;53;;G:\plasmidDB_git\plasmid-db\application\views\edit_insert.php;f17;53;39;53;;G:\plasmidDB_git\plasmid-db\application\views\add_vectormap.php;f17;35;39;35;;G:\plasmidDB_git\plasmid-db\application\views\add_sequence.php;f17;34;39;34;;G:\plasmidDB_git\plasmid-db\application\views\add_plasmid_location.php;f17;39;39;39;;G:\plasmidDB_git\plasmid-db\application\views\add_plasmid.php;f17;115;39;115;;G:\plasmidDB_git\plasmid-db\application\views\add_location.php;f17;37;39;37;;G:\plasmidDB_git\plasmid-db\application\views\add_insert.php;f17;37;39;37;;G:\plasmidDB_git\plasmid-db\application\views\add_genbank.php;f17;35;39;35;;G:\plasmidDB_git\plasmid-db\application\views\add_embl.php;f17;35;39;35;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="help/help_template.php;PHP:PHP Include;G:\plasmidDB\application\views\Codelobster0.php;f17;35;39;35;;G:\plasmidDB_git\plasmid-db\application\views\view_users.php;f17;55;39;55;;G:\plasmidDB_git\plasmid-db\application\views\view_search_results.php;f17;46;39;46;;G:\plasmidDB_git\plasmid-db\application\views\view_registration.php;f17;57;39;57;;G:\plasmidDB_git\plasmid-db\application\views\view_plasmids.php;f17;71;39;71;;G:\plasmidDB_git\plasmid-db\application\views\view_locations.php;f17;54;39;54;;G:\plasmidDB_git\plasmid-db\application\views\view_insert.php;f17;29;39;29;;G:\plasmidDB_git\plasmid-db\application\views\view_home.php;f17;16;39;16;;G:\plasmidDB_git\plasmid-db\application\views\upload_genbank.php;f17;36;39;36;;G:\plasmidDB_git\plasmid-db\application\views\upload_embl.php;f17;36;39;36;;G:\plasmidDB_git\plasmid-db\application\views\edit_plasmid_location.php;f17;39;39;39;;G:\plasmidDB_git\plasmid-db\application\views\edit_plasmid.php;f17;118;39;118;;G:\plasmidDB_git\plasmid-db\application\views\edit_location.php;f17;53;39;53;;G:\plasmidDB_git\plasmid-db\application\views\add_vectormap.php;f17;35;39;35;;G:\plasmidDB_git\plasmid-db\application\views\add_sequence.php;f17;34;39;34;;G:\plasmidDB_git\plasmid-db\application\views\add_plasmid_location.php;f17;39;39;39;;G:\plasmidDB_git\plasmid-db\application\views\add_plasmid.php;f17;115;39;115;;G:\plasmidDB_git\plasmid-db\application\views\add_location.php;f17;37;39;37;;G:\plasmidDB_git\plasmid-db\application\views\add_genbank.php;f17;35;39;35;;G:\plasmidDB_git\plasmid-db\application\views\add_embl.php;f17;35;39;35;;G:\plasmidDB_git\plasmid-db\application\views\add_insert.php;f17;37;39;37;;G:\plasmidDB_git\plasmid-db\application\views\edit_password.php;f17;39;39;39;;G:\plasmidDB_git\plasmid-db\application\views\edit_insert.php;f17;53;39;53;;G:\plasmidDB_git\plasmid-db\application\views\Codelobster0.php;f17;42;39;42;;G:\plasmidDB_git\plasmid-db\application\views\view_forgot.php;f17;42;39;42;;G:\plasmidDB_git\plasmid-db\application\views\edit_user.php;f17;83;39;83;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="SELF;PHP:PHP Word;G:\plasmidDB_git\plasmid-db\index.php;f9;162;13;162;;;;vpos;;v;;rpathinfo(__FILE__, PATHINFO_BASENAME;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -9098,6 +9098,54 @@
 				<treenode node="_font_lookup;PHP:Var Name;G:\plasmidDB\application\helpers\dompdf\include\font_metrics.cls.php;f19;83;32;83;;G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\include\font_metrics.cls.php;f19;83;32;83;;;;vposarray;;v;;r;;d-1,-1;;b2,5;;m">
 				</treenode>
 			</treenode>
+			<treenode node="Forgot;PHP:Class Name;G:\plasmidDB_git\plasmid-db\application\controllers\Codelobster0.php;f0;2;1;22;;G:\plasmidDB_git\plasmid-db\application\controllers\forgot.php;f0;2;1;101;;;;vpos;;vCI_Controller;;c;;r;;d35,2;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\Codelobster0.php;f1;4;2;14;;G:\plasmidDB_git\plasmid-db\application\controllers\forgot.php;f1;4;2;14;;;;vpos;;v;;r;;d1,5;;b0,0;;m">
+					<treenode node="_SESSION;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\Codelobster0.php;f12;9;21;9;;G:\plasmidDB_git\plasmid-db\application\controllers\forgot.php;f12;9;21;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="index;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\Codelobster0.php;f8;16;2;21;;G:\plasmidDB_git\plasmid-db\application\controllers\forgot.php;f8;16;2;21;;;;vpos;;v;;r;;d1,17;;b1,0;;m">
+					<treenode node="data;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\Codelobster0.php;f2;18;7;18;;G:\plasmidDB_git\plasmid-db\application\controllers\forgot.php;f2;18;7;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\Codelobster0.php;f2;20;7;20;;G:\plasmidDB_git\plasmid-db\application\controllers\forgot.php;f2;20;7;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="password;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\forgot.php;f8;71;2;100;;;;vpos;;v;;r;;d1,72;;b1,0;;musername;;pkey;;p">
+					<treenode node="_SESSION;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\forgot.php;f4;93;13;93;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="current_date;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\forgot.php;f2;79;15;79;;;;vposDateTime;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\forgot.php;f37;71;41;71;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="new_pass;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\forgot.php;f4;89;13;89;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="reset_date;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\forgot.php;f2;78;13;78;;;;vposDateTime;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\forgot.php;f2;73;7;73;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="time_difference;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\forgot.php;f2;81;18;81;;;;vposDateInterval;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="user;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\forgot.php;f2;76;7;76;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="username;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\forgot.php;f26;71;35;71;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="userpass;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\forgot.php;f8;23;2;69;;;;vpos;;v;;r;;d1,24;;b1,0;;m">
+					<treenode node="_SESSION;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\forgot.php;f4;41;13;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="action;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\forgot.php;f3;35;10;35;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="email;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\forgot.php;f3;36;9;36;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\forgot.php;f4;52;8;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\forgot.php;f2;25;7;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="url;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\forgot.php;f4;54;8;54;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="user;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\forgot.php;f3;37;8;37;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+			</treenode>
 			<treenode node="Frame;PHP:Class Name;G:\plasmidDB\application\helpers\dompdf\include\frame.cls.php;f0;53;1;643;;G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\include\frame.cls.php;f0;53;1;643;;;;vpos;;v;;r;;d12,53;;b0,0;;m">
 				<treenode node="__construct;PHP:Function Name;G:\plasmidDB\application\helpers\dompdf\include\frame.cls.php;f2;148;3;169;;G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\include\frame.cls.php;f2;148;3;169;;;;vpos;;v;;r Class constructor;;d38,148;;b0,0;;mDOMNode $node;;p">
 					<treenode node="node;PHP:Var Name;G:\plasmidDB\application\helpers\dompdf\include\frame.cls.php;f31;148;36;148;;G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\include\frame.cls.php;f31;148;36;148;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -9728,8 +9776,14 @@
 			</treenode>
 			<treenode node="Home;PHP:Class Name;G:\plasmidDB_git\plasmid-db\application\controllers\home.php;f0;2;1;27;;;;vpos;;vCI_Controller;;c;;r;;d33,2;;b0,0;;m">
 				<treenode node="__construct;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\home.php;f1;4;2;18;;;;vpos;;v;;r;;d1,5;;b0,0;;m">
+					<treenode node="_SESSION;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\home.php;f13;9;22;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 				<treenode node="index;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\home.php;f8;21;2;26;;;;vpos;;v;;r;;d1,22;;b1,0;;m">
+					<treenode node="data;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\home.php;f2;23;7;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\home.php;f2;25;7;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 			</treenode>
 			<treenode node="Image_Cache;PHP:Class Name;G:\plasmidDB\application\helpers\dompdf\include\image_cache.cls.php;f0;48;1;157;;G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\include\image_cache.cls.php;f0;48;1;157;;;;vpos;;v;;r;;d18,48;;b0,0;;m">
@@ -9786,28 +9840,56 @@
 			</treenode>
 			<treenode node="Info;PHP:Class Name;C:\Users\Seb\Desktop\website\plasmiddb\trunk\application\controllers\static.php;f0;2;1;24;;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f0;2;1;73;;;;vpos;;vCI_Controller;;c;;r;;d33,2;;b0,0;;m">
 				<treenode node="__construct;PHP:Function Name;C:\Users\Seb\Desktop\website\plasmiddb\trunk\application\controllers\static.php;f1;4;2;15;;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f1;4;2;15;;;;vpos;;v;;r;;d1,5;;b0,0;;m">
-					<treenode node="_SESSION;PHP:Var Name;C:\Users\Seb\Desktop\website\plasmiddb\trunk\application\controllers\static.php;f13;9;22;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="_SESSION;PHP:Var Name;C:\Users\Seb\Desktop\website\plasmiddb\trunk\application\controllers\static.php;f13;9;22;9;;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f13;9;22;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="about;PHP:Function Name;C:\Users\Seb\Desktop\website\plasmiddb\trunk\application\controllers\static.php;f8;18;2;23;;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f8;18;2;23;;;;vpos;;v;;r;;d1,19;;b1,0;;m">
-					<treenode node="data;PHP:Var Name;C:\Users\Seb\Desktop\website\plasmiddb\trunk\application\controllers\static.php;f2;20;7;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="data;PHP:Var Name;C:\Users\Seb\Desktop\website\plasmiddb\trunk\application\controllers\static.php;f2;20;7;20;;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f2;20;7;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="this;PHP:Var Name;C:\Users\Seb\Desktop\website\plasmiddb\trunk\application\controllers\static.php;f2;22;7;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\Seb\Desktop\website\plasmiddb\trunk\application\controllers\static.php;f2;22;7;22;;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f2;22;7;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="acknowledgements;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f8;25;2;30;;;;vpos;;v;;r;;d1,26;;b1,0;;m">
+					<treenode node="data;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f2;27;7;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f2;29;7;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 				<treenode node="contact;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f8;32;2;37;;;;vpos;;v;;r;;d1,33;;b1,0;;m">
+					<treenode node="data;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f2;34;7;34;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f2;36;7;36;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 				<treenode node="faq;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f8;39;2;44;;;;vpos;;v;;r;;d1,40;;b1,0;;m">
+					<treenode node="data;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f2;41;7;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f2;43;7;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 				<treenode node="legal;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f8;46;2;51;;;;vpos;;v;;r;;d1,47;;b1,0;;m">
+					<treenode node="data;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f2;48;7;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f2;50;7;50;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 				<treenode node="publications;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f8;53;2;58;;;;vpos;;v;;r;;d1,54;;b1,0;;m">
+					<treenode node="data;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f2;55;7;55;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f2;57;7;57;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 				<treenode node="start;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f8;60;2;65;;;;vpos;;v;;r;;d1,61;;b1,0;;m">
+					<treenode node="data;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f2;62;7;62;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f2;64;7;64;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 				<treenode node="tutorial;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f8;67;2;72;;;;vpos;;v;;r;;d1,68;;b1,0;;m">
+					<treenode node="data;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f2;69;7;69;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\info.php;f2;71;7;71;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 			</treenode>
 			<treenode node="Inline_Frame_Decorator;PHP:Class Name;G:\plasmidDB\application\helpers\dompdf\include\inline_frame_decorator.cls.php;f0;47;1;81;;G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\include\inline_frame_decorator.cls.php;f0;47;1;81;;;;vpos;;vFrame_Decorator;;c;;r;;d53,47;;b0,0;;m">
@@ -10022,23 +10104,75 @@
 			</treenode>
 			<treenode node="Location;PHP:Class Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f0;2;1;184;;;;vpos;;vCI_Controller;;c;;r;;d37,2;;b0,0;;m">
 				<treenode node="__construct;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f1;4;2;19;;;;vpos;;v;;r;;d1,5;;b0,0;;m">
+					<treenode node="_SESSION;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f13;9;22;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 				<treenode node="add;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f8;61;2;103;;;;vpos;;v;;r;;d1,62;;b1,0;;m">
+					<treenode node="_SESSION;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f5;63;14;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="address;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f4;81;12;81;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="building;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f4;79;13;79;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="data;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f2;100;7;100;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="record;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f4;83;11;83;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="room;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f4;80;9;80;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f2;69;7;69;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 				<treenode node="all;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f8;47;2;59;;;;vpos;;v;;r;;d1,48;;b1,0;;m">
+					<treenode node="data;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f2;53;7;53;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f2;49;7;49;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 				<treenode node="delete;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f8;105;2;132;;;;vpos;;v;;r;;d1,106;;b1,0;;mid;;p">
+					<treenode node="_SESSION;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f8;118;17;118;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 					<treenode node="id;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f24;105;27;105;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="locations;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f3;112;13;112;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f3;107;8;107;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="users;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f3;111;9;111;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="edit;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f8;134;2;182;;;;vpos;;v;;r;;d1,135;;b1,0;;mlocation_id;;p">
+					<treenode node="_SESSION;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f5;136;14;136;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="address;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f4;154;12;154;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="building;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f4;152;13;152;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="data;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f2;174;7;174;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="location;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f2;172;11;172;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 					<treenode node="location_id;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f22;134;34;134;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="record;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f4;156;11;156;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="room;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f4;153;9;153;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f2;142;7;142;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="index;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f8;21;2;25;;;;vpos;;v;;r;;d1,22;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f2;24;7;24;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 				<treenode node="view;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f8;27;2;45;;;;vpos;;v;;r;;d1,28;;b1,0;;mlocation;;p">
+					<treenode node="data;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f2;30;7;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 					<treenode node="location;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f22;27;31;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f2;29;7;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="user;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\location.php;f50;30;55;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 			</treenode>
@@ -10080,13 +10214,61 @@
 				<treenode node="verifty_user;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\login_model.php;f8;4;2;19;;;;vpos;;v;;r;;d1,5;;b1,0;;muser;;ppassword;;p">
 					<treenode node="password;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\login_model.php;f37;4;46;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
+					<treenode node="q;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\login_model.php;f2;6;4;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\login_model.php;f7;6;12;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 					<treenode node="user;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\login_model.php;f30;4;35;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 			</treenode>
-			<treenode node="Mailtest;PHP:Class Name;G:\plasmidDB_git\plasmid-db\application\controllers\mailtest.php;f0;2;1;14;;;;vpos;;vCI_Controller;;c;;r;;d37,2;;b0,0;;m">
-				<treenode node="index;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\mailtest.php;f8;7;2;13;;;;vpos;;v;;r;;d1,8;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\mailtest.php;f2;9;7;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="Notification_model;PHP:Class Name;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f0;2;1;81;;;;vpos;;vCI_Model;;c;;r;;d42,2;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f1;4;5;11;;;;vpos;;v;;r;;d4,5;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f8;9;13;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="account_type_changed;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f8;39;2;50;;;;vpos;;v;;r;;d1,40;;b1,0;;memail;;p">
+					<treenode node="email;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f38;39;44;39;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f7;41;12;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="new_user;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f8;13;2;24;;;;vpos;;v;;r;;d1,14;;b1,0;;muser;;p">
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f7;15;12;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="user;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f26;13;31;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="password_reset;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f8;62;2;70;;;;vpos;;v;;r;;d1,63;;b1,0;;mpassword;;pemail;;p">
+					<treenode node="email;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f43;62;49;62;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="password;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f32;62;41;62;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f3;64;8;64;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="password_reset_requested;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f8;52;2;60;;;;vpos;;v;;r;;d1,53;;b1,0;;muser;;purl;;pemail;;p">
+					<treenode node="email;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f55;52;61;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f3;54;8;54;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="url;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f49;52;53;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="user;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f42;52;47;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="recover_username;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f8;72;2;80;;;;vpos;;v;;r;;d1,73;;b1,0;;muser;;pemail;;p">
+					<treenode node="email;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f41;72;47;72;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f3;74;8;74;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="user;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f34;72;39;72;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="registration_success;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f8;26;2;37;;;;vpos;;v;;r;;d1,27;;b1,0;;memail;;p">
+					<treenode node="email;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f38;26;44;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f7;28;12;28;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 			</treenode>
@@ -10232,10 +10414,24 @@
 			</treenode>
 			<treenode node="Password;PHP:Class Name;G:\plasmidDB_git\plasmid-db\application\controllers\password.php;f0;2;1;71;;;;vpos;;vCI_Controller;;c;;r;;d37,2;;b0,0;;m">
 				<treenode node="__construct;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\password.php;f1;4;2;18;;;;vpos;;v;;r;;d1,5;;b0,0;;m">
+					<treenode node="_SESSION;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\password.php;f13;9;22;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 				<treenode node="change;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\password.php;f8;26;2;70;;;;vpos;;v;;r;;d1,27;;b1,0;;m">
+					<treenode node="_SESSION;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\password.php;f38;30;47;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="data;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\password.php;f2;67;7;67;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="passdata;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\password.php;f4;50;13;50;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\password.php;f2;28;7;28;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="user;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\password.php;f2;30;7;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 				<treenode node="index;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\password.php;f8;21;2;24;;;;vpos;;v;;r;;d1,22;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\password.php;f2;23;7;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 			</treenode>
 			<treenode node="PDFLib_Adapter;PHP:Class Name;G:\plasmidDB\application\helpers\dompdf\include\pdflib_adapter.cls.php;f0;56;1;886;;G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\include\pdflib_adapter.cls.php;f0;56;1;886;;;;vpos;;vCanvas;;c;;r;;d39,56;;b0,0;;m">
@@ -11134,15 +11330,15 @@
 				<treenode node="_frame;PHP:Var Name;G:\plasmidDB\application\helpers\dompdf\include\positioner.cls.php;f12;52;19;52;;G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\include\positioner.cls.php;f12;52;19;52;;;;vpos;;v;;r;;d-1,-1;;b2,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="Register;PHP:Class Name;G:\plasmidDB_git\plasmid-db\application\controllers\register.php;f0;2;1;69;;;;vpos;;vCI_Controller;;c;;r;;d37,2;;b0,0;;m">
-				<treenode node="__construct;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\register.php;f1;4;2;13;;;;vpos;;v;;r;;d1,5;;b0,0;;m">
-					<treenode node="_SESSION;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\register.php;f12;9;21;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="Register;PHP:Class Name;G:\plasmidDB_git\plasmid-db\application\controllers\register.php;f0;2;1;77;;;;vpos;;vCI_Controller;;c;;r;;d37,2;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\register.php;f1;4;2;13;;G:\plasmidDB_git\plasmid-db\application\controllers\Codelobster0.php;f1;4;2;13;;;;vpos;;v;;r;;d1,5;;b0,0;;m">
+					<treenode node="_SESSION;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\register.php;f12;9;21;9;;G:\plasmidDB_git\plasmid-db\application\controllers\Codelobster0.php;f12;9;21;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="index;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\register.php;f8;16;2;68;;;;vpos;;v;;r;;d1,17;;b1,0;;m">
+				<treenode node="index;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\register.php;f8;16;2;76;;;;vpos;;v;;r;;d1,17;;b1,0;;m">
 					<treenode node="_SESSION;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\register.php;f4;39;13;39;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="data;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\register.php;f2;64;7;64;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="data;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\register.php;f2;72;7;72;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\register.php;f2;18;7;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
@@ -11952,67 +12148,195 @@
 					</treenode>
 				</treenode>
 			</treenode>
-			<treenode node="User;PHP:Class Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f0;2;1;161;;;;vpos;;vCI_Controller;;c;;r;;d33,2;;b0,0;;m">
+			<treenode node="User;PHP:Class Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f0;2;1;162;;;;vpos;;vCI_Controller;;c;;r;;d33,2;;b0,0;;m">
 				<treenode node="__construct;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f1;4;2;18;;;;vpos;;v;;r;;d1,5;;b0,0;;m">
-				</treenode>
-				<treenode node="all;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f8;63;2;72;;;;vpos;;v;;r;;d1,64;;b1,0;;m">
-				</treenode>
-				<treenode node="delete;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f8;75;2;107;;;;vpos;;v;;r;;d1,76;;b1,0;;muser;;p">
-					<treenode node="user;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f24;75;29;75;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="_SESSION;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f13;9;22;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="edit;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f8;110;2;159;;;;vpos;;v;;r;;d1,111;;b1,0;;musername;;p">
+				<treenode node="all;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f8;63;2;72;;;;vpos;;v;;r;;d1,64;;b1,0;;m">
+					<treenode node="data;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f2;67;7;67;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f2;65;7;65;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="delete;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f8;75;2;107;;;;vpos;;v;;r;;d1,76;;b1,0;;muser;;p">
+					<treenode node="_SESSION;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f7;79;16;79;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="plasmids;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f4;83;13;83;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f3;77;8;77;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="user;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f24;75;29;75;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="userData;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f4;82;13;82;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="edit;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f8;110;2;160;;;;vpos;;v;;r;;d1,111;;b1,0;;musername;;p">
+					<treenode node="_SESSION;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f5;112;14;112;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="data;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f2;154;7;154;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f2;118;7;118;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="user;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f2;121;7;121;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 					<treenode node="username;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f22;110;31;110;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="index;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f8;20;2;24;;;;vpos;;v;;r;;d1,21;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f2;23;7;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 				<treenode node="location;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f8;52;2;61;;;;vpos;;v;;r;;d1,53;;b1,0;;mlocation_id;;p">
+					<treenode node="data;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f2;56;7;56;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 					<treenode node="location_id;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f26;52;38;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f2;54;7;54;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="view;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f8;26;2;50;;;;vpos;;v;;r;;d1,27;;b1,0;;muser;;p">
+					<treenode node="_SESSION;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f3;47;12;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="data;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f3;37;8;37;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f2;28;7;28;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 					<treenode node="user;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f22;26;27;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="userData;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\controllers\user.php;f2;32;11;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 			</treenode>
-			<treenode node="User_model;PHP:Class Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f0;2;1;173;;;;vpos;;vCI_Model;;c;;r;;d34,2;;b0,0;;m">
-				<treenode node="count_users;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f8;141;2;156;;;;vpos;;v;;r;;d1,142;;b1,0;;m">
+			<treenode node="User_model;PHP:Class Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f0;2;1;226;;;;vpos;;vCI_Model;;c;;r;;d34,2;;b0,0;;m">
+				<treenode node="count_users;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f8;172;2;187;;;;vpos;;v;;r;;d1,173;;b1,0;;m">
+					<treenode node="q;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f2;174;4;174;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="row;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f3;182;7;182;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f7;174;12;174;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="delete_user;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f8;158;2;161;;;;vpos;;v;;r;;d1,159;;b1,0;;muser;;p">
-					<treenode node="user;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f29;158;34;158;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="create_reset_key;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f8;157;2;170;;;;vpos;;v;;r;;d1,158;;b1,0;;muser;;p">
+					<treenode node="data;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f2;162;7;162;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f2;159;6;159;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f2;167;7;167;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="timestamp;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f2;160;12;160;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="user;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f34;157;39;157;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="delete_user;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f8;189;2;192;;;;vpos;;v;;r;;d1,190;;b1,0;;muser;;p">
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f2;191;7;191;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="user;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f29;189;34;189;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="get_user;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f8;68;2;82;;;;vpos;;v;;r;;d1,69;;b1,0;;muser;;p">
+					<treenode node="q;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f2;70;4;70;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f7;70;12;70;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 					<treenode node="user;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f26;68;31;68;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="get_user_count_per_location;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f8;122;2;139;;;;vpos;;v;;r;;d1,123;;b1,0;;m">
+				<treenode node="get_user_count_per_location;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f8;138;2;155;;;;vpos;;v;;r;;d1,139;;b1,0;;m">
+					<treenode node="q;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f2;140;4;140;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="row;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f28;146;32;146;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f7;140;12;140;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="users_per_location;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f3;144;22;144;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 				<treenode node="get_user_id;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f8;84;2;98;;;;vpos;;v;;r;;d1,85;;b1,0;;mid;;p">
 					<treenode node="id;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f29;84;32;84;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
+					<treenode node="q;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f2;86;4;86;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f7;86;12;86;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="get_users_at_location;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f8;100;2;120;;;;vpos;;v;;r;;d1,101;;b1,0;;mid;;p">
-					<treenode node="id;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f39;100;42;100;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="get_user_mail;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f8;100;2;114;;;;vpos;;v;;r;;d1,101;;b1,0;;memail;;p">
+					<treenode node="email;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f31;100;37;100;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="q;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f2;102;4;102;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f7;102;12;102;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="get_users_at_location;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f8;116;2;136;;;;vpos;;v;;r;;d1,117;;b1,0;;mid;;p">
+					<treenode node="id;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f39;116;42;116;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="q;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f2;118;4;118;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="row;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f28;127;32;127;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f7;118;12;118;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="users;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f3;125;9;125;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="get_users_by_id;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f8;46;2;65;;;;vpos;;v;;r;;d1,47;;b1,0;;m">
+					<treenode node="output;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f3;53;10;53;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="q;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f2;48;4;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="row;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f27;55;31;55;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f7;48;12;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 				<treenode node="get_users_per_location;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f8;25;2;44;;;;vpos;;v;;r;;d1,26;;b1,0;;mlocation_id;;p">
 					<treenode node="location_id;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f40;25;52;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
+					<treenode node="q;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f2;27;4;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="row;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f27;35;31;35;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f7;27;12;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="users;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f3;33;9;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="insert_user;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f8;163;2;166;;;;vpos;;v;;r;;d1,164;;b1,0;;muser;;p">
-					<treenode node="user;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f29;163;34;163;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="insert_user;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f8;194;2;197;;;;vpos;;v;;r;;d1,195;;b1,0;;muser;;p">
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f2;196;7;196;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="user;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f29;194;34;194;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="list_users;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f8;4;2;23;;;;vpos;;v;;r;;d1,5;;b1,0;;m">
-				</treenode>
-				<treenode node="update_user;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f8;168;2;171;;;;vpos;;v;;r;;d1,169;;b1,0;;muser;;puserdata;;p">
-					<treenode node="user;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f29;168;34;168;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="q;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f2;6;4;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="userdata;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f36;168;45;168;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="row;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f27;13;31;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f7;6;12;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="users;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f3;11;9;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="reset_password;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f8;214;2;225;;;;vpos;;v;;r;;d1,215;;b1,0;;muser;;p">
+					<treenode node="data;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f2;218;7;218;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="password;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f2;216;11;216;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f2;222;7;222;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="user;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f32;214;37;214;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="update_user;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f8;199;2;212;;;;vpos;;v;;r;;d1,200;;b1,0;;muser;;puserdata;;p">
+					<treenode node="oldUser;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f2;202;10;202;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f2;201;7;201;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="user;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f29;199;34;199;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="userdata;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\models\user_model.php;f36;199;45;199;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 			</treenode>
@@ -12231,9 +12555,15 @@
 				</treenode>
 			</treenode>
 			<treenode node="_parse_attributes;PHP:Function Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f1;562;2;588;;;;vpos;;vstring;;r Parse out the attributes;;d1,563;;b0,0;;mattributes;;pjavascript;;p">
+				<treenode node="att;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f2;569;6;569;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
 				<treenode node="attributes;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f28;562;39;562;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="javascript;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f41;562;52;562;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="javascript;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f41;562;52;562;;;;vposbool;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="key;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f26;570;30;570;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="val;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f34;570;38;570;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
 			<treenode node="_parse_form_attributes;PHP:Function Name;G:\plasmidDB_git\plasmid-db\system\helpers\form_helper.php;f1;922;2;954;;;;vpos;;vstring;;r Parse the form attributes;;d1,923;;b0,0;;mattributes;;pdefault;;p">
@@ -12251,19 +12581,29 @@
 			<treenode node="alternator;PHP:Function Name;G:\plasmidDB_git\plasmid-db\system\helpers\string_helper.php;f1;272;2;283;;;;vpos;;vstring;;r Alternator;;d1,273;;b0,0;;m">
 			</treenode>
 			<treenode node="anchor;PHP:Function Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f1;142;2;166;;;;vpos;;vstring;;r Anchor Link;;d1,143;;b0,0;;muri;;ptitle;;pattributes;;p">
-				<treenode node="attributes;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f41;142;52;142;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="attributes;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f41;142;52;142;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="title;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f28;142;34;142;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="site_url;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f3;148;12;148;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="title;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f28;142;34;142;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 				<treenode node="uri;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f17;142;21;142;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
 			<treenode node="anchor_popup;PHP:Function Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f1;185;2;218;;;;vpos;;vstring;;r Anchor Link - Pop-up version;;d1,186;;b0,0;;muri;;ptitle;;pattributes;;p">
-				<treenode node="attributes;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f47;185;58;185;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="attributes;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f47;185;58;185;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="title;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f34;185;40;185;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="atts;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f3;208;8;208;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="key;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f159;206;163;206;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="site_url;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f2;189;11;189;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="title;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f34;185;40;185;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 				<treenode node="uri;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f23;185;27;185;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="val;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f167;206;171;206;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
 			<treenode node="ascii_to_entities;PHP:Function Name;G:\plasmidDB_git\plasmid-db\system\helpers\text_helper.php;f1;117;2;162;;;;vpos;;vstring;;r High ASCII to Entities;;d1,118;;b0,0;;mstr;;p">
@@ -12271,9 +12611,17 @@
 				</treenode>
 			</treenode>
 			<treenode node="auto_link;PHP:Function Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f1;379;2;428;;;;vpos;;vstring;;r Auto-linker;;d1,380;;b0,0;;mstr;;ptype;;ppopup;;p">
+				<treenode node="i;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f9;387;11;387;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="matches;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f82;383;90;383;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="period;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f5;389;12;389;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="pop;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f4;385;8;385;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
 				<treenode node="popup;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f42;379;48;379;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="str;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f20;379;24;379;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="str;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f20;379;24;379;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 				<treenode node="type;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f26;379;31;379;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
@@ -12287,6 +12635,8 @@
 				</treenode>
 			</treenode>
 			<treenode node="base_url;PHP:Function Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f1;63;2;67;;;;vpos;;vstring;;r Base URL;;d1,64;;b0,0;;muri;;p">
+				<treenode node="CI;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f2;65;5;65;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
 				<treenode node="uri;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f19;63;23;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
@@ -12341,6 +12691,8 @@
 				</treenode>
 			</treenode>
 			<treenode node="current_url;PHP:Function Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f1;83;2;87;;;;vpos;;vstring;;r Current URL;;d1,84;;b0,0;;m">
+				<treenode node="CI;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f2;85;5;85;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
 			</treenode>
 			<treenode node="days_in_month;PHP:Function Name;G:\plasmidDB_git\plasmid-db\system\helpers\date_helper.php;f1;266;2;288;;;;vpos;;vinteger;;r Number of days in a month;;d1,267;;b0,0;;mmonth;;pyear;;p">
 				<treenode node="month;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\date_helper.php;f24;266;30;266;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -12715,6 +13067,8 @@
 				</treenode>
 			</treenode>
 			<treenode node="index_page;PHP:Function Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f1;120;2;124;;;;vpos;;vstring;;r Index page;;d1,121;;b0,0;;m">
+				<treenode node="CI;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f2;122;5;122;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
 			</treenode>
 			<treenode node="install_font_family;PHP:Function Name;G:\plasmidDB\application\helpers\dompdf\load_font.php;f0;108;1;244;;G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\load_font.php;f0;108;1;244;;;;vpos;;v;;r Installs a new font family;;d100,108;;b0,0;;mstring $fontname;;pstring $normal;;pstring $bold;;pstring $italic;;pstring $bold_italic;;p">
 				<treenode node="bold;PHP:Var Name;G:\plasmidDB\application\helpers\dompdf\load_font.php;f49;108;54;108;;G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\load_font.php;f49;108;54;108;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -12803,7 +13157,7 @@
 				</treenode>
 			</treenode>
 			<treenode node="mailto;PHP:Function Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f1;234;2;246;;;;vpos;;vstring;;r Mailto Link;;d1,235;;b0,0;;memail;;ptitle;;pattributes;;p">
-				<treenode node="attributes;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f38;234;49;234;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="attributes;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f38;234;49;234;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 				<treenode node="email;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f17;234;23;234;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
@@ -12880,10 +13234,10 @@
 				<treenode node="num;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\html_helper.php;f14;427;18;427;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="new_user_notification;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\helpers\Codelobster0.php;f0;2;1;11;;G:\plasmidDB_git\plasmid-db\application\helpers\notification_model.php;f0;2;1;11;;;;vpos;;v;;r;;d0,3;;b0,0;;muser;;p">
-				<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\helpers\Codelobster0.php;f2;4;7;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="new_user_notification;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\helpers\Codelobster0.php;f0;2;1;11;;;;vpos;;v;;r;;d0,5;;b1,0;;muser;;p">
+				<treenode node="this;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\helpers\Codelobster0.php;f2;4;7;4;;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f2;7;7;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="user;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\helpers\Codelobster0.php;f31;2;36;2;;G:\plasmidDB_git\plasmid-db\application\helpers\notification_model.php;f31;2;36;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="user;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\helpers\Codelobster0.php;f31;2;36;2;;G:\plasmidDB_git\plasmid-db\application\models\notification_model.php;f38;4;43;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
 			<treenode node="nl2br_except_pre;PHP:Function Name;G:\plasmidDB_git\plasmid-db\system\helpers\typography_helper.php;f1;38;2;45;;;;vpos;;vstring;;r Convert newlines to HTML line breaks except within PRE tags;;d1,39;;b0,0;;mstr;;p">
@@ -12902,7 +13256,7 @@
 				<treenode node="list;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\html_helper.php;f13;83;18;83;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="parse_embl;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\helpers\embl_helper.php;f0;2;1;113;;;;vpos;;v;;r;;d0,3;;b0,0;;muser;;p">
+			<treenode node="parse_embl;PHP:Function Name;G:\plasmidDB_git\plasmid-db\application\helpers\embl_helper.php;f0;2;1;113;;;;vpos;;v;;r;;d0,3;;b0,0;;mcontent;;puserid;;p">
 				<treenode node="comment_line;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\helpers\embl_helper.php;f34;65;47;65;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 				<treenode node="content;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\helpers\embl_helper.php;f20;2;28;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -12947,8 +13301,6 @@
 				</treenode>
 				<treenode node="url;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\helpers\embl_helper.php;f4;6;8;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="user;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\helpers\Codelobster0.php;f20;2;25;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-				</treenode>
 				<treenode node="userid;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\helpers\embl_helper.php;f30;2;37;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 				<treenode node="val;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\helpers\embl_helper.php;f5;19;9;19;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
@@ -12957,51 +13309,51 @@
 			<treenode node="parse_genbank;PHP:Function Name;G:\plasmidDB\application\helpers\Codelobster0.php;f7;2;1;109;;G:\plasmidDB\application\helpers\genbank.php;f0;2;1;109;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f0;2;1;109;;;;vpos;;v;;r;;d0,3;;b0,0;;mcontent;;puserid;;p">
 				<treenode node="_SESSION;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f18;96;27;96;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="comment_line;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f34;63;47;63;;G:\plasmidDB\application\helpers\genbank.php;f34;63;47;63;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f34;63;47;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="comment_line;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f34;63;47;63;;G:\plasmidDB\application\helpers\genbank.php;f34;63;47;63;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f34;63;47;63;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f34;63;47;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="content;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f30;2;38;2;;G:\plasmidDB\application\helpers\genbank.php;f23;2;31;2;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f23;2;31;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="content;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f30;2;38;2;;G:\plasmidDB\application\helpers\genbank.php;f23;2;31;2;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f23;2;31;2;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f23;2;31;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="data;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f4;13;9;13;;G:\plasmidDB\application\helpers\genbank.php;f4;13;9;13;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f4;13;9;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="data;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f4;13;9;13;;G:\plasmidDB\application\helpers\genbank.php;f4;13;9;13;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f4;13;9;13;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f4;13;9;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="description;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f4;7;16;7;;G:\plasmidDB\application\helpers\genbank.php;f4;7;16;7;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f4;7;16;7;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="description;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f4;7;16;7;;G:\plasmidDB\application\helpers\genbank.php;f4;7;16;7;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f4;7;16;7;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f4;7;16;7;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="f_data;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f33;39;40;39;;G:\plasmidDB\application\helpers\genbank.php;f33;39;40;39;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f33;39;40;39;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="f_data;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f33;39;40;39;;G:\plasmidDB\application\helpers\genbank.php;f33;39;40;39;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f33;39;40;39;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f33;39;40;39;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="feature;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f21;39;29;39;;G:\plasmidDB\application\helpers\genbank.php;f21;39;29;39;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f21;39;29;39;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="feature;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f21;39;29;39;;G:\plasmidDB\application\helpers\genbank.php;f21;39;29;39;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f21;39;29;39;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f21;39;29;39;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="feature_line;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f34;76;47;76;;G:\plasmidDB\application\helpers\genbank.php;f34;76;47;76;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f34;76;47;76;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="feature_line;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f34;76;47;76;;G:\plasmidDB\application\helpers\genbank.php;f34;76;47;76;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f34;76;47;76;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f34;76;47;76;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="feature_list;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f6;75;19;75;;G:\plasmidDB\application\helpers\genbank.php;f6;75;19;75;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f6;75;19;75;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="feature_list;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f6;75;19;75;;G:\plasmidDB\application\helpers\genbank.php;f6;75;19;75;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f6;75;19;75;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f6;75;19;75;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="feature_new;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f9;80;21;80;;G:\plasmidDB\application\helpers\genbank.php;f9;80;21;80;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f9;80;21;80;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="feature_new;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f9;80;21;80;;G:\plasmidDB\application\helpers\genbank.php;f9;80;21;80;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f9;80;21;80;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f9;80;21;80;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="key;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f5;18;9;18;;G:\plasmidDB\application\helpers\genbank.php;f5;18;9;18;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f5;18;9;18;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="key;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f5;18;9;18;;G:\plasmidDB\application\helpers\genbank.php;f5;18;9;18;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f5;18;9;18;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f5;18;9;18;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="line;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f22;16;27;16;;G:\plasmidDB\application\helpers\genbank.php;f22;16;27;16;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f22;16;27;16;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="line;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f22;16;27;16;;G:\plasmidDB\application\helpers\genbank.php;f22;16;27;16;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f22;16;27;16;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f22;16;27;16;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="lines;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f4;9;10;9;;G:\plasmidDB\application\helpers\genbank.php;f4;9;10;9;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f4;9;10;9;;;;vposarray;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="lines;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f4;9;10;9;;G:\plasmidDB\application\helpers\genbank.php;f4;9;10;9;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f4;9;10;9;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f4;9;10;9;;;;vposarray;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="name;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f5;4;10;4;;G:\plasmidDB\application\helpers\genbank.php;f5;4;10;4;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f5;4;10;4;;;;vposarray;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="name;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f5;4;10;4;;G:\plasmidDB\application\helpers\genbank.php;f5;4;10;4;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f5;4;10;4;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f5;4;10;4;;;;vposarray;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="ori_seq;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f34;51;42;51;;G:\plasmidDB\application\helpers\genbank.php;f34;51;42;51;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f34;51;42;51;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="ori_seq;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f34;51;42;51;;G:\plasmidDB\application\helpers\genbank.php;f34;51;42;51;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f34;51;42;51;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f34;51;42;51;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="parts;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f6;44;12;44;;G:\plasmidDB\application\helpers\genbank.php;f6;44;12;44;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f6;44;12;44;;;;vposarray;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="parts;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f6;44;12;44;;G:\plasmidDB\application\helpers\genbank.php;f6;44;12;44;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f6;44;12;44;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f6;44;12;44;;;;vposarray;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="plasmid;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f4;94;12;94;;G:\plasmidDB\application\helpers\genbank.php;f4;94;12;94;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f4;94;12;94;;;;vposarray;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="plasmid;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f4;94;12;94;;G:\plasmidDB\application\helpers\genbank.php;f4;94;12;94;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f4;94;12;94;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f4;94;12;94;;;;vposarray;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="prev_key;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f4;11;13;11;;G:\plasmidDB\application\helpers\genbank.php;f4;11;13;11;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f4;11;13;11;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="prev_key;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f4;11;13;11;;G:\plasmidDB\application\helpers\genbank.php;f4;11;13;11;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f4;11;13;11;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f4;11;13;11;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="s;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f7;55;9;55;;G:\plasmidDB\application\helpers\genbank.php;f7;55;9;55;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f7;55;9;55;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="s;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f7;55;9;55;;G:\plasmidDB\application\helpers\genbank.php;f7;55;9;55;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f7;55;9;55;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f7;55;9;55;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="s_parts;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f7;54;15;54;;G:\plasmidDB\application\helpers\genbank.php;f7;54;15;54;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f7;54;15;54;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="s_parts;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f7;54;15;54;;G:\plasmidDB\application\helpers\genbank.php;f7;54;15;54;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f7;54;15;54;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f7;54;15;54;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="sequence;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f4;5;13;5;;G:\plasmidDB\application\helpers\genbank.php;f4;5;13;5;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f4;5;13;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="sequence;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f4;5;13;5;;G:\plasmidDB\application\helpers\genbank.php;f4;5;13;5;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f4;5;13;5;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f4;5;13;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="url;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f4;6;8;6;;G:\plasmidDB\application\helpers\genbank.php;f4;6;8;6;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f4;6;8;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="url;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f4;6;8;6;;G:\plasmidDB\application\helpers\genbank.php;f4;6;8;6;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f4;6;8;6;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f4;6;8;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="userid;PHP:Var Name;G:\plasmidDB\application\helpers\genbank.php;f33;2;40;2;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f33;2;40;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="userid;PHP:Var Name;G:\plasmidDB\application\helpers\genbank.php;f33;2;40;2;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f33;2;40;2;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f33;2;40;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="val;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f5;19;9;19;;G:\plasmidDB\application\helpers\genbank.php;f5;19;9;19;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f5;19;9;19;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="val;PHP:Var Name;G:\plasmidDB\application\helpers\Codelobster0.php;f5;19;9;19;;G:\plasmidDB\application\helpers\genbank.php;f5;19;9;19;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f5;19;9;19;;G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php;f5;19;9;19;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
 			<treenode node="parse_smileys;PHP:Function Name;G:\plasmidDB_git\plasmid-db\system\helpers\smiley_helper.php;f1;190;2;214;;;;vpos;;vstring;;r Parse Smileys;;d1,191;;b0,0;;mstr;;pimage_url;;psmileys;;p">
@@ -13039,6 +13391,8 @@
 			<treenode node="prep_url;PHP:Function Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f1;444;2;459;;;;vpos;;vstring;;r Prep URL;;d1,445;;b0,0;;mstr;;p">
 				<treenode node="str;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f19;444;23;444;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
+				<treenode node="url;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f2;451;6;451;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
 			</treenode>
 			<treenode node="print_memusage;PHP:Function Name;G:\plasmidDB\application\helpers\dompdf\include\functions.inc.php;f0;358;1;373;;G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\include\functions.inc.php;f0;358;1;373;;;;vpos;;v;;r;;d26,358;;b0,0;;m">
 			</treenode>
@@ -13075,11 +13429,11 @@
 				</treenode>
 			</treenode>
 			<treenode node="redirect;PHP:Function Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f1;530;2;545;;;;vpos;;vstring;;r Header Redirect;;d1,531;;b0,0;;muri;;pmethod;;phttp_response_code;;p">
-				<treenode node="http_response_code;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f52;530;71;530;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="http_response_code;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f52;530;71;530;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 				<treenode node="method;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f30;530;37;530;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="uri;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f19;530;23;530;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="uri;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f19;530;23;530;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
 			<treenode node="reduce_double_slashes;PHP:Function Name;G:\plasmidDB_git\plasmid-db\system\helpers\string_helper.php;f1;141;2;144;;;;vpos;;vstring;;r Reduce Double Slashes;;d1,142;;b0,0;;mstr;;p">
@@ -13109,9 +13463,27 @@
 			<treenode node="safe_mailto;PHP:Function Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f1;264;2;358;;;;vpos;;vstring;;r Encoded Mailto Link;;d1,265;;b0,0;;memail;;ptitle;;pattributes;;p">
 				<treenode node="attributes;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f43;264;54;264;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
+				<treenode node="buffer;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f2;355;9;355;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="count;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f5;323;11;323;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
 				<treenode node="email;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f22;264;28;264;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
+				<treenode node="i;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f7;273;9;273;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="key;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f28;289;32;289;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="number;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f5;329;12;329;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="ordinal;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f3;313;11;313;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="temp;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f2;310;7;310;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
 				<treenode node="title;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f30;264;36;264;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="val;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f36;289;40;289;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="x;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f3;275;5;275;;;;vposarray;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
 			<treenode node="sanitize_filename;PHP:Function Name;G:\plasmidDB_git\plasmid-db\system\helpers\security_helper.php;f1;57;2;61;;;;vpos;;vstring;;r Sanitize Filename;;d1,58;;b0,0;;mfilename;;p">
@@ -13203,6 +13575,8 @@
 				</treenode>
 			</treenode>
 			<treenode node="site_url;PHP:Function Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f1;41;2;45;;;;vpos;;vstring;;r Site URL;;d1,42;;b0,0;;muri;;p">
+				<treenode node="CI;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f2;43;5;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
 				<treenode node="uri;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f19;41;23;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
@@ -13277,13 +13651,23 @@
 				</treenode>
 			</treenode>
 			<treenode node="uri_string;PHP:Function Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f1;101;2;105;;;;vpos;;vstring;;r URL String;;d1,102;;b0,0;;m">
+				<treenode node="CI;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f2;103;5;103;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
 			</treenode>
 			<treenode node="url_title;PHP:Function Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f1;478;2;511;;;;vpos;;vstring;;r Create URL Title;;d1,479;;b0,0;;mstr;;pseparator;;plowercase;;p">
+				<treenode node="key;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f21;500;25;500;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
 				<treenode node="lowercase;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f44;478;54;478;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="q_separator;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f2;489;14;489;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 				<treenode node="separator;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f26;478;36;478;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="str;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f20;478;24;478;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="str;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f20;478;24;478;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="trans;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f2;491;8;491;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="val;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f29;500;33;500;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
 			<treenode node="usage;PHP:Function Name;G:\plasmidDB\application\helpers\dompdf\load_font.php;f0;56;1;87;;G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\load_font.php;f0;56;1;87;;;;vpos;;v;;r;;d17,56;;b0,0;;m">
@@ -13354,7 +13738,7 @@
 			</treenode>
 			<treenode node="_SERVER;PHP:Var Name;G:\plasmidDB\application\helpers\dompdf\www\head.inc;f50;16;58;16;;G:\plasmidDB\application\helpers\dompdf\www\examples.php;f26;39;34;39;;G:\plasmidDB\application\helpers\dompdf\load_font.php;f5;89;13;89;;G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\www\head.inc;f50;16;58;16;;G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\www\examples.php;f26;39;34;39;;G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\load_font.php;f5;89;13;89;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="_SESSION;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\views\view_users.php;f18;31;27;31;;G:\plasmidDB_git\plasmid-db\application\views\view_plasmids.php;f17;35;26;35;;G:\plasmidDB_git\plasmid-db\application\views\view_plasmid.php;f16;75;25;75;;G:\plasmidDB_git\plasmid-db\application\views\view_locations.php;f17;30;26;30;;G:\plasmidDB_git\plasmid-db\application\views\view_insert.php;f16;19;25;19;;G:\plasmidDB_git\plasmid-db\application\views\view_home.php;f33;9;42;9;;G:\plasmidDB_git\plasmid-db\application\views\header.php;f28;30;37;30;;G:\plasmidDB_git\plasmid-db\application\views\edit_user.php;f22;61;31;61;;G:\plasmidDB_git\plasmid-db\application\views\edit_plasmid.php;f16;58;25;58;;G:\plasmidDB_git\plasmid-db\application\views\add_plasmid.php;f16;20;25;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="_SESSION;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\views\view_users.php;f18;31;27;31;;G:\plasmidDB_git\plasmid-db\application\views\view_plasmids.php;f17;35;26;35;;G:\plasmidDB_git\plasmid-db\application\views\view_plasmid.php;f16;75;25;75;;G:\plasmidDB_git\plasmid-db\application\views\view_locations.php;f17;30;26;30;;G:\plasmidDB_git\plasmid-db\application\views\view_insert.php;f16;19;25;19;;G:\plasmidDB_git\plasmid-db\application\views\view_home.php;f33;9;42;9;;G:\plasmidDB_git\plasmid-db\application\views\header.php;f28;30;37;30;;G:\plasmidDB_git\plasmid-db\application\views\edit_plasmid.php;f16;58;25;58;;G:\plasmidDB_git\plasmid-db\application\views\add_plasmid.php;f16;20;25;20;;G:\plasmidDB_git\plasmid-db\application\views\edit_user.php;f22;61;31;61;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="active_group;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\config\database.php;f0;47;13;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -13398,7 +13782,7 @@
 			</treenode>
 			<treenode node="class;PHP:Var Name;G:\plasmidDB_git\plasmid-db\system\core\CodeIgniter.php;f1;263;7;263;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="config;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\config\migration.php;f0;10;7;10;;G:\plasmidDB_git\plasmid-db\application\config\config.php;f0;16;7;16;;G:\plasmidDB_git\plasmid-db\application\config\Codelobster0.php;f0;29;7;29;;G:\plasmidDB_git\plasmid-db\application\config\email.php;f0;29;7;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="config;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\config\migration.php;f0;10;7;10;;G:\plasmidDB_git\plasmid-db\application\config\config.php;f0;16;7;16;;G:\plasmidDB_git\plasmid-db\application\config\email.php;f0;28;7;28;;G:\plasmidDB_git\plasmid-db\application\config\Codelobster0.php;f0;7;7;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="content;PHP:Var Name;G:\plasmidDB\application\views\file\Codelobster0.php;f8;5;16;5;;G:\plasmidDB_git\plasmid-db\application\views\file\text_file.php;f8;5;16;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -13408,7 +13792,7 @@
 			</treenode>
 			<treenode node="creator_location;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\views\view_plasmid.php;f18;212;35;212;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="data;PHP:Var Name;G:\plasmidDB\application\views\Codelobster0.php;f12;20;17;20;;G:\plasmidDB_git\plasmid-db\application\views\view_registration.php;f12;44;17;44;;G:\plasmidDB_git\plasmid-db\application\views\view_login.php;f12;32;17;32;;G:\plasmidDB_git\plasmid-db\application\views\upload_genbank.php;f12;21;17;21;;G:\plasmidDB_git\plasmid-db\application\views\upload_embl.php;f12;21;17;21;;G:\plasmidDB_git\plasmid-db\application\views\edit_user.php;f12;70;17;70;;G:\plasmidDB_git\plasmid-db\application\views\edit_plasmid_location.php;f12;25;17;25;;G:\plasmidDB_git\plasmid-db\application\views\edit_plasmid.php;f32;69;37;69;;G:\plasmidDB_git\plasmid-db\application\views\edit_password.php;f12;25;17;25;;G:\plasmidDB_git\plasmid-db\application\views\edit_location.php;f12;39;17;39;;G:\plasmidDB_git\plasmid-db\application\views\edit_insert.php;f12;39;17;39;;G:\plasmidDB_git\plasmid-db\application\views\add_vectormap.php;f12;20;17;20;;G:\plasmidDB_git\plasmid-db\application\views\add_sequence.php;f12;19;17;19;;G:\plasmidDB_git\plasmid-db\application\views\add_plasmid_location.php;f12;25;17;25;;G:\plasmidDB_git\plasmid-db\application\views\add_plasmid.php;f4;38;9;38;;G:\plasmidDB_git\plasmid-db\application\views\add_location.php;f12;23;17;23;;G:\plasmidDB_git\plasmid-db\application\views\add_insert.php;f12;23;17;23;;G:\plasmidDB_git\plasmid-db\application\views\add_genbank.php;f12;20;17;20;;G:\plasmidDB_git\plasmid-db\application\views\add_embl.php;f12;20;17;20;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="data;PHP:Var Name;G:\plasmidDB\application\views\Codelobster0.php;f12;20;17;20;;G:\plasmidDB_git\plasmid-db\application\views\view_registration.php;f12;44;17;44;;G:\plasmidDB_git\plasmid-db\application\views\upload_genbank.php;f12;21;17;21;;G:\plasmidDB_git\plasmid-db\application\views\upload_embl.php;f12;21;17;21;;G:\plasmidDB_git\plasmid-db\application\views\edit_plasmid_location.php;f12;25;17;25;;G:\plasmidDB_git\plasmid-db\application\views\edit_plasmid.php;f32;69;37;69;;G:\plasmidDB_git\plasmid-db\application\views\edit_location.php;f12;39;17;39;;G:\plasmidDB_git\plasmid-db\application\views\add_vectormap.php;f12;20;17;20;;G:\plasmidDB_git\plasmid-db\application\views\add_sequence.php;f12;19;17;19;;G:\plasmidDB_git\plasmid-db\application\views\add_plasmid_location.php;f12;25;17;25;;G:\plasmidDB_git\plasmid-db\application\views\add_plasmid.php;f4;38;9;38;;G:\plasmidDB_git\plasmid-db\application\views\add_location.php;f12;23;17;23;;G:\plasmidDB_git\plasmid-db\application\views\add_genbank.php;f12;20;17;20;;G:\plasmidDB_git\plasmid-db\application\views\add_embl.php;f12;20;17;20;;G:\plasmidDB_git\plasmid-db\application\views\add_insert.php;f12;23;17;23;;G:\plasmidDB_git\plasmid-db\application\views\edit_password.php;f12;25;17;25;;G:\plasmidDB_git\plasmid-db\application\views\edit_insert.php;f12;39;17;39;;G:\plasmidDB_git\plasmid-db\application\views\Codelobster0.php;f12;18;17;18;;G:\plasmidDB_git\plasmid-db\application\views\view_login.php;f12;32;17;32;;G:\plasmidDB_git\plasmid-db\application\views\view_forgot.php;f12;18;17;18;;G:\plasmidDB_git\plasmid-db\application\views\edit_user.php;f12;70;17;70;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="db;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\config\database.php;f0;50;3;50;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -13466,7 +13850,7 @@
 			</treenode>
 			<treenode node="location_id;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\views\edit_location.php;f45;7;57;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="locations;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\views\view_registration.php;f71;39;81;39;;G:\plasmidDB_git\plasmid-db\application\views\view_plasmid.php;f13;157;23;157;;G:\plasmidDB_git\plasmid-db\application\views\view_locations.php;f14;7;24;7;;G:\plasmidDB_git\plasmid-db\application\views\edit_user.php;f71;57;81;57;;G:\plasmidDB_git\plasmid-db\application\views\edit_plasmid_location.php;f72;14;82;14;;G:\plasmidDB_git\plasmid-db\application\views\add_plasmid_location.php;f72;14;82;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="locations;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\views\view_registration.php;f71;39;81;39;;G:\plasmidDB_git\plasmid-db\application\views\view_plasmid.php;f13;157;23;157;;G:\plasmidDB_git\plasmid-db\application\views\view_locations.php;f14;7;24;7;;G:\plasmidDB_git\plasmid-db\application\views\edit_plasmid_location.php;f72;14;82;14;;G:\plasmidDB_git\plasmid-db\application\views\add_plasmid_location.php;f72;14;82;14;;G:\plasmidDB_git\plasmid-db\application\views\edit_user.php;f71;57;81;57;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="message;PHP:Var Name;G:\plasmidDB_git\plasmid-db\application\errors\error_php.php;f24;5;32;5;;G:\plasmidDB_git\plasmid-db\application\errors\error_general.php;f13;58;21;58;;G:\plasmidDB_git\plasmid-db\application\errors\error_db.php;f13;58;21;58;;G:\plasmidDB_git\plasmid-db\application\errors\error_404.php;f13;58;21;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -17828,7 +18212,7 @@
 			</treenode>
 			<treenode node="docScroll;JS:JS Var Name;G:\plasmidDB_git\plasmid-db\js\vendor\bootstrap.js;f12;1244;21;1244;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="document;JS:JS Var Name;G:\plasmidDB_git\plasmid-db\js\vendor\sorttable.js;f4;343;12;343;;G:\plasmidDB_git\plasmid-db\js\vendor\modernizr-2.6.2-respond-1.1.0.min.js;f14670;3;14678;3;;G:\plasmidDB_git\plasmid-db\js\vendor\bootstrap.min.js;f9442;5;9450;5;;G:\plasmidDB_git\plasmid-db\js\vendor\bootstrap.js;f4;159;12;159;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="document;JS:JS Var Name;G:\plasmidDB_git\plasmid-db\js\vendor\sorttable.js;f4;343;12;343;;G:\plasmidDB_git\plasmid-db\js\vendor\modernizr-2.6.2-respond-1.1.0.min.js;f14670;3;14678;3;;G:\plasmidDB_git\plasmid-db\js\vendor\bootstrap.min.js;f9442;5;9450;5;;G:\plasmidDB_git\plasmid-db\js\vendor\bootstrap.js;f4;159;12;159;;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f34;350;42;350;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="Dropdown;JS:JS Var Name;G:\plasmidDB_git\plasmid-db\js\vendor\bootstrap.js;f2;702;10;702;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -17843,6 +18227,8 @@
 			<treenode node="e4;JS:JS Var Name;G:\plasmidDB_git\plasmid-db\js\vendor\modernizr-2.6.2-respond-1.1.0.min.js;f13889;3;13891;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="each;JS:JS Var Name;G:\plasmidDB_git\plasmid-db\js\vendor\jquery-1.10.1.min.js;f1970;3;1974;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="echo;JS:JS Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f33;347;37;347;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="el;JS:JS Var Name;G:\plasmidDB_git\plasmid-db\js\vendor\bootstrap.js;f9;199;11;199;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -17940,7 +18326,7 @@
 			</treenode>
 			<treenode node="html;JS:JS Var Name;G:\plasmidDB_git\plasmid-db\js\vendor\bootstrap.min.js;f14893;5;14897;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="i;JS:JS Var Name;G:\plasmidDB_git\plasmid-db\js\vendor\modernizr-2.6.2-respond-1.1.0.min.js;f11975;3;11976;3;;G:\plasmidDB_git\plasmid-db\js\vendor\jquery-1.10.1.min.js;f23;3;24;3;;G:\plasmidDB_git\plasmid-db\js\vendor\bootstrap.min.js;f4256;5;4257;5;;G:\plasmidDB_git\plasmid-db\js\vendor\bootstrap.js;f13;1130;14;1130;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="i;JS:JS Var Name;G:\plasmidDB_git\plasmid-db\js\vendor\modernizr-2.6.2-respond-1.1.0.min.js;f11975;3;11976;3;;G:\plasmidDB_git\plasmid-db\js\vendor\jquery-1.10.1.min.js;f23;3;24;3;;G:\plasmidDB_git\plasmid-db\js\vendor\bootstrap.min.js;f4256;5;4257;5;;G:\plasmidDB_git\plasmid-db\js\vendor\bootstrap.js;f13;1130;14;1130;;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f2;346;3;346;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="I;JS:JS Var Name;G:\plasmidDB_git\plasmid-db\js\vendor\jquery-1.10.1.min.js;f8430;3;8431;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -18004,7 +18390,7 @@
 			</treenode>
 			<treenode node="Kt;JS:JS Var Name;G:\plasmidDB_git\plasmid-db\js\vendor\jquery-1.10.1.min.js;f1303;5;1305;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="l;JS:JS Var Name;G:\plasmidDB_git\plasmid-db\js\vendor\modernizr-2.6.2-respond-1.1.0.min.js;f11986;3;11987;3;;G:\plasmidDB_git\plasmid-db\js\vendor\jquery-1.10.1.min.js;f80;3;81;3;;G:\plasmidDB_git\plasmid-db\js\vendor\bootstrap.min.js;f17289;5;17290;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="l;JS:JS Var Name;G:\plasmidDB_git\plasmid-db\js\vendor\modernizr-2.6.2-respond-1.1.0.min.js;f11986;3;11987;3;;G:\plasmidDB_git\plasmid-db\js\vendor\jquery-1.10.1.min.js;f80;3;81;3;;G:\plasmidDB_git\plasmid-db\js\vendor\bootstrap.min.js;f17289;5;17290;5;;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f5;344;6;344;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="L;JS:JS Var Name;G:\plasmidDB_git\plasmid-db\js\vendor\jquery-1.10.1.min.js;f572;3;573;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -18127,6 +18513,8 @@
 			<treenode node="password;JS:JS Var Name;G:\plasmidDB_git\plasmid-db\js\vendor\jquery-1.10.1.min.js;f21683;3;21691;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="pause;JS:JS Var Name;G:\plasmidDB_git\plasmid-db\js\vendor\bootstrap.min.js;f3060;5;3065;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="php;JS:JS Var Name;G:\plasmidDB_git\plasmid-db\system\helpers\url_helper.php;f3;345;6;345;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="placement;JS:JS Var Name;G:\plasmidDB_git\plasmid-db\js\vendor\bootstrap.min.js;f14721;5;14730;5;;G:\plasmidDB_git\plasmid-db\js\vendor\bootstrap.js;f10;1221;19;1221;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -18598,6 +18986,7 @@
 		<file name="G:\plasmidDB_git\plasmid-db\application\views\help\help_locations.php" crc="-2120052590"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\views\help\help_insert.php" crc="1576448218"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\views\help\help_home.php" crc="990203365"/>
+		<file name="G:\plasmidDB_git\plasmid-db\application\views\help\help_forgot.php" crc="382518688"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\views\help\help_edit_user.php" crc="862665073"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\views\help\help_edit_plasmid_location.php" crc="810408737"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\views\help\help_edit_plasmid.php" crc="432683785"/>
@@ -18616,10 +19005,11 @@
 		<file name="G:\plasmidDB_git\plasmid-db\application\views\view_registration.php" crc="-1990997360"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\views\view_plasmids.php" crc="1372909647"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\views\view_plasmid.php" crc="401418212"/>
-		<file name="G:\plasmidDB_git\plasmid-db\application\views\view_login.php" crc="-950552982"/>
+		<file name="G:\plasmidDB_git\plasmid-db\application\views\view_login.php" crc="-737176170"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\views\view_locations.php" crc="-1696012692"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\views\view_insert.php" crc="1329783766"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\views\view_home.php" crc="173166155"/>
+		<file name="G:\plasmidDB_git\plasmid-db\application\views\view_forgot.php" crc="11332179"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\views\view_error.php" crc="178963899"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\views\upload_genbank.php" crc="-975711197"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\views\upload_embl.php" crc="-1977904842"/>
@@ -18719,15 +19109,15 @@
 		<file name="G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\load_font.php" crc="-1103504045"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\dompdf_config.inc.php" crc="-2097201135"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\third_party\dompdf\dompdf.php" crc="-421028957"/>
-		<file name="G:\plasmidDB_git\plasmid-db\application\models\user_model.php" crc="1697770812"/>
+		<file name="G:\plasmidDB_git\plasmid-db\application\models\user_model.php" crc="-1265085684"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\models\plasmid_model.php" crc="-1261367950"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\models\plasmid_location_model.php" crc="-235999379"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\models\option_model.php" crc="-1079530054"/>
+		<file name="G:\plasmidDB_git\plasmid-db\application\models\notification_model.php" crc="1496618083"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\models\login_model.php" crc="-1829151572"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\models\location_model.php" crc="-831470159"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\models\inventory_model.php" crc="1290513273"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\models\insert_model.php" crc="1828449927"/>
-		<file name="G:\plasmidDB_git\plasmid-db\application\helpers\notification_model.php" crc="-273864428"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\helpers\genbank_helper.php" crc="-731128800"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\helpers\embl_helper.php" crc="-1549164400"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\helpers\dompdf_helper.php" crc="-350616128"/>
@@ -18735,33 +19125,34 @@
 		<file name="G:\plasmidDB_git\plasmid-db\application\errors\error_general.php" crc="-408254174"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\errors\error_db.php" crc="-1726591355"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\errors\error_404.php" crc="1631448776"/>
-		<file name="G:\plasmidDB_git\plasmid-db\application\controllers\user.php" crc="-2031575984"/>
+		<file name="G:\plasmidDB_git\plasmid-db\application\controllers\user.php" crc="470830593"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\controllers\search.php" crc="123642201"/>
-		<file name="G:\plasmidDB_git\plasmid-db\application\controllers\register.php" crc="1010562525"/>
+		<file name="G:\plasmidDB_git\plasmid-db\application\controllers\register.php" crc="1243357169"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\controllers\plasmid_location.php" crc="175547980"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\controllers\plasmid.php" crc="-1498608469"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\controllers\password.php" crc="-538839692"/>
-		<file name="G:\plasmidDB_git\plasmid-db\application\controllers\mailtest.php" crc="1202605020"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\controllers\login.php" crc="380100487"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\controllers\location.php" crc="-395172312"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\controllers\inventory.php" crc="511702617"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\controllers\insert.php" crc="-1587608554"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\controllers\info.php" crc="1956093413"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\controllers\home.php" crc="-532871182"/>
+		<file name="G:\plasmidDB_git\plasmid-db\application\controllers\forgot.php" crc="1894612639"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\config\user_agents.php" crc="-484381080"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\config\smileys.php" crc="-749249654"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\config\routes.php" crc="572640957"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\config\profiler.php" crc="806934376"/>
+		<file name="G:\plasmidDB_git\plasmid-db\application\config\plasmid_db.php" crc="-527979317"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\config\mimes.php" crc="767988074"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\config\migration.php" crc="1883168378"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\config\hooks.php" crc="-232972918"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\config\foreign_chars.php" crc="-1365329089"/>
-		<file name="G:\plasmidDB_git\plasmid-db\application\config\email.php" crc="599484803"/>
+		<file name="G:\plasmidDB_git\plasmid-db\application\config\email.php" crc="-1387734755"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\config\doctypes.php" crc="796808004"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\config\database.php" crc="-286375257"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\config\constants.php" crc="1276116486"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\config\config.php" crc="-1275842499"/>
-		<file name="G:\plasmidDB_git\plasmid-db\application\config\autoload.php" crc="1585093148"/>
+		<file name="G:\plasmidDB_git\plasmid-db\application\config\autoload.php" crc="-1536734240"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\cache\.htaccess" crc="1792548129"/>
 		<file name="G:\plasmidDB_git\plasmid-db\application\.htaccess" crc="-643410220"/>
 		<file name="G:\plasmidDB_git\plasmid-db\robots.txt" crc="1410579809"/>

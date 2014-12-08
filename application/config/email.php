@@ -29,9 +29,9 @@
 $config['useragent']        = 'CodeIgniter';        
 $config['protocol']         = 'smtp';        
 //$config['mailpath']         = '/usr/sbin/sendmail';
-$config['smtp_host']        = 'ssl://yoursmtpserver';
-$config['smtp_user']        = 'smtp username';
-$config['smtp_pass']        = 'smtp password';
+$config['smtp_host']        = 'ssl://mail.axc.nl';
+$config['smtp_user']        = 'plasmid-db@sebastianproost.be';
+$config['smtp_pass']        = 'plasmid*rules';
 $config['smtp_port']        = 465;
 $config['smtp_timeout']     = 5;
 $config['wordwrap']         = TRUE;
@@ -45,9 +45,9 @@ $config['newline']          = "\r\n";
 $config['bcc_batch_mode']   = FALSE;
 $config['bcc_batch_size']   = 200;
 
-$config['send_notifications'] = FALSE
-$config['notification_from'] = 'from email address';
-$config['notification_to'] = 'admin\'s email address';
+$config['send_notifications'] = FALSE;
+$config['notification_from'] = 'plasmid-db@sebastianproost.be';
+$config['notification_to'] = 'proost@mpimp-golm.mpg.de';
 
 /* End of file email.php */
 /* Location: ./system/application/config/email.php */  
