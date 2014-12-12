@@ -7,7 +7,7 @@ class Home extends CI_Controller {
 		parent::__construct();
 		session_start();
 
-		if ($this->config->item('autologin'))
+		if ($this->config->item('autologin') && !isset($_SESSION['username']))
 		{
 			$this->load->model('user_model');
 			
