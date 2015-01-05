@@ -27,24 +27,15 @@ class Inventory extends CI_Controller {
 	
 	public function pdf($location_id)
 	{
-		$this->load->helper(array('dompdf', 'file'));
-		$this->load->helper('file');
+		$this->load->helper(array('dompdf', 'download'));
 			
 		$html = $this->get_inventory($location_id);
 	
 		//create pdf
 		$pdfdata = pdf_create($html, '', false);
-		$filename = 'pdf/' . $_SESSION['username'] . "_inventory.pdf";		
+		$filename = $_SESSION['username'] . "_inventory.pdf";		
 		
-		if(!is_writable(APPPATH . "../pdf/"))
-		{
-			$dir = APPPATH . "../pdf/";
-			$_SESSION['error'] = 'Directory '. $dir .' not writeable, contact the webmaster to set this up.';
-			redirect('home');
-		}
-		
-		write_file($filename, $pdfdata);
-		redirect($filename);
+		force_download($filename, $pdfdata);
 	}
 	
 	public function view($location_id)

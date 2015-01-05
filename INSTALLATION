@@ -4,7 +4,7 @@ Plasmid DB requires an MySQL database, Apache with mod_rewrite and php 5 to run.
 
 Step 1:
 *Download the installation zip, extract the files and copy them to your webserver.
-*The img/vectormap, pdf and tmp directory need to be made writeable for the webserver (set permission to 777)
+*The img/vectormap and tmp directory need to be made writeable for the webserver (set permission to 777)
 
 Step 2:
 *Set up a plasmid db user in your database (needs read and write permission) and create a new table for plasmid db
@@ -15,7 +15,7 @@ Step 3:
 *In case the website is not in the main domain: edit .htaccess. Replace "RewriteBase /" with "RewriteBase /plasmid_db_folder/".
 *Set the base url in "application/contif/config.php": $config['base_url'] = "http://your_url_here.net"; 
 *Set up the database connection in "application/contif/database.php"
-*Set up the email system in "application/contif/email.php" (or disable notifications here)
+*Set up the email system in "application/config/email.php" (or disable notifications here)
 
 Step 4:
 *Log in using user "admin" and password "admin"
