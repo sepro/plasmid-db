@@ -466,6 +466,14 @@ class Plasmid_model extends CI_Model {
 		
 		$this->update_plasmid($plasmid_id, $data);
 	}
+	
+	public function transfer_plasmids($original_user, $new_user)
+	{
+		$data = array("creator" => $new_user);
+		
+		$this->db->where('creator', $original_user)->update('plasmids', $data);	
+	}
+	
 }
 
 ?>

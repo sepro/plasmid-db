@@ -72,6 +72,12 @@ class Plasmid_location_model extends CI_Model {
 		$this->db->where('id', $id)->update('plasmid_location', $data);
 	}
 	
+	public function transfer_plasmids_location($original_location, $new_location)
+	{
+		$data = array("location_id" => $new_location);
+		
+		$this->db->where('location_id', $original_location)->update('plasmid_location', $data);	
+	}
 }
 
 ?>

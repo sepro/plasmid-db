@@ -55,6 +55,10 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> <?php echo $_SESSION['first_name'] . " " . $_SESSION['last_name'] ?><b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li class="dropdown-header">Account type: <?php echo $_SESSION['account']; ?></li>
+            <?php if ($_SESSION['account'] == 'admin') { ?>
+				<li><a href="<?php echo base_url(); ?>admin/">Admin Panel</a></li>
+				<li class="divider"></li>
+			<?php } ?>
             <li><a href="<?php echo base_url(); ?>user/edit/<?php echo $_SESSION['username']; ?>">Edit profile</a></li>
             <li><a href="<?php echo base_url(); ?>password/change/">Change password</a></li>
             <li class="divider"></li>
