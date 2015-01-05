@@ -141,15 +141,14 @@ class Admin extends CI_Controller {
 		$this->load->dbutil();
 		$this->load->helper('file');
 		$this->load->helper('download');
+
+
 		
 		// Backup your entire database and assign it to a variable
 		$backup =& $this->dbutil->backup();
 
-		$filename = realpath(APPPATH . '../tmp/') . "backup.gz";
-
-		//write_file($filename, $backup);
 		
-		force_download('backup.gz', $backup); 
+		force_download('backup.sql.gz', $backup); 
 	}
 }
 	

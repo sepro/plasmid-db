@@ -161,7 +161,7 @@
   			<div class="tab-pane" id="export">
   				<div class="col-lg-12" style="padding-bottom:15px;">
   					<h3>Export Database <br /><small>(Create a local backup of the database)</small></h3>
-  					
+  					<a href="<?php echo base_url(); ?>admin/export_database/"class="btn btn-primary btn"><span class="glyphicon glyphicon-export"></span> Export DB</a>
   					<h3>Import from file <br /><small>(Upload a local file with plasmid information to the database)</small></h3>
   				</div>
   			</div>
