@@ -150,6 +150,82 @@ class Admin extends CI_Controller {
 		
 		force_download('backup.sql.gz', $backup); 
 	}
+	
+	function import_database()
+	{
+		if (!empty($_FILES['userfile']['name']))
+		{
+			if(!is_writable(realpath(APPPATH . '../tmp')))
+			{
+				$_SESSION['error'] = "Directory tmp not writeable, contact the webmaster to set this up.";
+				redirect('admin');
+			}
+			
+			ob_start();
+
+		    $config =  array (
+				'allowed_types' => 'sql|gz',
+				'upload_path' => realpath(APPPATH . '../tmp'),
+				'max_size' => 0			//no limit
+			);
+		
+			$this->load->library('upload', $config);
+			
+			if (! $this->upload->do_upload())
+			{
+				$_SESSION['error'] = $this->upload->display_errors();
+			} else {
+				$sql_data = $this->upload->data();
+				
+				$content = '';
+				
+				print_r($sql_data);
+				
+				if ($sql_data['file_type'] == 'text/x-sql') 
+				{
+					//uncompressed sql file, read as is
+					$content = file_get_contents($sql_data['full_path'], FILE_USE_INCLUDE_PATH);
+				} elseif ($sql_data['file_type'] == 'application/x-gzip')
+				{
+					//gzipped sql file, gunzip first
+					$this->load->helper('gunzip');
+					
+					$file_name = $sql_data['full_path'];
+					$file_uncompressed = str_replace('.gz', '', $file_name);
+					
+					gunzip($file_name, $file_uncompressed);
+
+					$content = file_get_contents($file_uncompressed, FILE_USE_INCLUDE_PATH);
+				}
+				
+				
+				$queries = preg_split("/;(\r)*\n/", $content);
+				
+				$this->db->query("SET FOREIGN_KEY_CHECKS = 0");
+				
+				foreach($queries as $query)
+				{
+					$str = trim($query);
+					
+					if (!empty($str)) //ignore empty lines
+					{
+						$this->db->query($query);
+					}
+					
+				}
+     			
+     			$this->db->query("SET FOREIGN_KEY_CHECKS = 1");
+				
+				unlink($sql_data['full_path']);
+				
+				$_SESSION['success'] = "Succesfully imported " . $sql_data['file_name'];
+			}
+			
+			
+		}
+		
+		redirect('admin');
+	}
 }
 	
 
