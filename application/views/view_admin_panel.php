@@ -162,7 +162,7 @@
   				<div class="col-lg-12" style="padding-bottom:15px;">
   					<h3>Export Database <br /><small>(Create a local backup of the database)</small></h3>
   					<a href="<?php echo base_url(); ?>admin/export_database/"class="btn btn-primary"><span class="glyphicon glyphicon-export"></span> Export DB</a>
-  					<h3>Import from file <br /><small>(Upload a local file with plasmid information to the database)</small></h3>
+  					<h3>Import from File <br /><small>(Upload a local file with plasmid information to the database)</small></h3>
   					<?php 
   						echo form_open_multipart('admin/import_database');
   						echo form_upload('userfile'); 

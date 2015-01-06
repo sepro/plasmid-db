@@ -4,7 +4,7 @@ Plasmid DB requires an MySQL database, Apache with mod_rewrite and php 5 to run.
 
 Step 1:
 *Download the installation zip, extract the files and copy them to your webserver.
-*The img/vectormap and tmp directory need to be made writeable for the webserver (set permission to 777)
+*The tmp directory needs to be made writeable for the webserver (set permission to 777)
 
 Step 2:
 *Set up a plasmid db user in your database (needs read and write permission) and create a new table for plasmid db

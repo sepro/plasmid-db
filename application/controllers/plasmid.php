@@ -29,6 +29,7 @@ class Plasmid extends CI_Controller {
 		$this->load->model('user_model');
 		$this->load->model('location_model');
 		$this->load->model('insert_model');
+		$this->load->model('vectormap_model');
 		
 		$plasmid = $this->plasmid_model->get_plasmid($id);
 
@@ -45,27 +46,8 @@ class Plasmid extends CI_Controller {
 			$data['backbone_name'] = $backbone->name;			
 		}
 
-		//check if thumbnail exists and add paths if it does
 
-		$data['thumbnail'] = '';
-		$thumbnail = APPPATH . '../img/vectormaps/' . "$id" . "_thumb";
-		//echo $thumbnail;
-		if (file_exists($thumbnail . ".png")) {
-			$data['thumbnail'] = base_url() . "img/vectormaps/" . $id . "_thumb.png";
-			$data['vectormap'] = base_url() . "img/vectormaps/" . $id . ".png";
-		} else if (file_exists($thumbnail . ".jpg")) {
-			$data['thumbnail'] = base_url() . "img/vectormaps/" . $id . "_thumb.jpg";
-			$data['vectormap'] = base_url() . "img/vectormaps/" . $id . ".jpg";
-		} else if (file_exists($thumbnail . ".jpeg")) {
-			$data['thumbnail'] = base_url() . "img/vectormaps/" . $id . "_thumb.jpeg";
-			$data['vectormap'] = base_url() . "img/vectormaps/" . $id . ".jpeg";
-		} else if (file_exists($thumbnail . ".gif")) {
-			$data['thumbnail'] = base_url() . "img/vectormaps/" . $id . "_thumb.gif";
-			$data['vectormap'] = base_url() . "img/vectormaps/" . $id . ".gif";
-		}
-		
-		
-
+		$data['has_vectormap'] = $this->vectormap_model->vectormap_exists($id);
 		$data['controller'] = 'plasmid';
 		$data['title'] = "Plasmid -- " . $data['plasmid']->name;
 		$this->load->view('view_plasmid', $data);
@@ -299,7 +281,7 @@ class Plasmid extends CI_Controller {
 		$data['title'] = "Upload EMBL File";
 		$this->load->view('upload_embl', $data);
 	}
-	
+
 	public function addvectormap($plasmid_id)
 	{
 		if ($_SESSION['account'] == 'guest')
@@ -308,6 +290,7 @@ class Plasmid extends CI_Controller {
 		}
 		
 		$this->load->model('plasmid_model');
+		$this->load->model('vectormap_model');
 		
 		$plasmid = $this->plasmid_model->get_plasmid($plasmid_id);
 		
@@ -320,7 +303,7 @@ class Plasmid extends CI_Controller {
 		if (!empty($_FILES['userfile']['name']))
 		{
 			
-			if ($this->plasmid_model->upload_vectormap($plasmid_id))
+			if ($this->vectormap_model->upload_vectormap($plasmid_id))
 			{
 				//upload successfull go to view
 				redirect('plasmid/view/' . $plasmid_id);
@@ -576,7 +559,7 @@ class Plasmid extends CI_Controller {
 
     public function remove_vectormap($plasmid_id)
     {
-		$this->load->model('plasmid_model');
+		$this->load->model('vectormap_model');
 		
 		if($_SESSION['account'] !== 'admin' && $_SESSION['userid'] !== $plasmid->creator)
 		{
@@ -584,7 +567,7 @@ class Plasmid extends CI_Controller {
 			redirect('plasmid');			
 		}
 		
-		$this->plasmid_model->remove_vectormap($plasmid_id);
+		$this->vectormap_model->delete_vectormap($plasmid_id);
 		
 		redirect('plasmid/view/'.$plasmid_id);		
 	}

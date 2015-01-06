@@ -22,8 +22,8 @@
 				<p>Bactrial resistance: <?php echo $plasmid->bacterial_resistance;?><br />Plant resistance: <?php echo $plasmid->plant_resistance;?></p>
 				</div>
 				<div class="col-sm-6 nopadding">
-				<?php if ($thumbnail !== '') { ?>
-				<a href="<?php echo $vectormap; ?>"><img src="<?php echo $thumbnail; ?>" alt="vector map" /></a>
+				<?php if ($has_vectormap) { ?>
+				<a href="<?php echo base_url(); ?>vectormap/show/<?php echo $plasmid->plasmid_id; ?>"><img src="<?php echo base_url(); ?>vectormap/show_thumb/<?php echo $plasmid->plasmid_id; ?>" alt="vector map" /></a>
 				<?php }?>
 				</div>
 				</div>
@@ -178,7 +178,6 @@
 						<td><?php echo $location->label;?></td>
 						<td><?php echo $location->storage_type;?></td>
 						<td>
-						<span class="glyphicon glyphicon-warning-sign"></span>
 							<?php if ($_SESSION['account'] == 'admin' || $_SESSION['userid'] == $plasmid->creator) { ?>
 							<a href="<?php echo base_url(); ?>plasmid_location/edit/<?php echo $location->id;?>/<?php echo $plasmid->plasmid_id; ?>"><span class="glyphicon glyphicon-edit"></span></a>
 							<a href="<?php echo base_url(); ?>plasmid_location/delete/<?php echo $location->id;?>/<?php echo $plasmid->plasmid_id; ?>" onclick="return confirm('Warning! Continuing will delete location.')"><span class="glyphicon glyphicon-trash"></span></a> <?php } else {?>
