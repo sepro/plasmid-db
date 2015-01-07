@@ -1,7 +1,6 @@
 <?php include(APPPATH.'views/header.php'); ?>
 
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="container main-content">
 	<div class="row">
         <div class="col-lg-12">

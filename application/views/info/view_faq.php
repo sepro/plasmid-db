@@ -1,7 +1,6 @@
 <?php include(APPPATH.'views/header.php'); ?>
 
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="container main-content">
 	<div class="row">
         <div class="col-lg-8">
@@ -32,7 +31,7 @@
 			
 			<div class="faq">
 				<p class="question">I found an error or bug, where can I report it?</p>
-				<p class="answer">If this is a mistake with the content of the database contact either the person that added the information or an administrator. Bug and errors in the Plasmid DB software can be reported by <a href="<?php echo base_url(); ?>contact">contacting</a> the developers.</p>
+				<p class="answer">If this is a mistake with the content of the database contact either the person that added the information or an administrator. Bug and errors in the Plasmid DB software can be reported by <a href="<?php echo base_url(); ?>contact">contacting</a> the developers or filing an issue on <a href="https://github.com/sepro/plasmid-db/">GitHub</a>.</p>
 			</div>
 		</div>
 		
