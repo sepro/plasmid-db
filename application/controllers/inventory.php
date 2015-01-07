@@ -14,7 +14,7 @@ class Inventory extends CI_Controller {
 		
 		if ($_SESSION['account'] == 'pending')
 		{
-			$_SESSION['warning'] = 'Your account is <strong>awaiting approval from an administrator</strong>, all features are disabled';
+			add_warning_alert('Your account is <strong>awaiting approval from an administrator</strong>, all features are disabled');
 			redirect('home');
 		}
 	}

@@ -34,7 +34,7 @@ class Plasmid_location extends CI_Controller {
 
 		if($_SESSION['account'] !== 'admin' && $_SESSION['userid'] !== $plasmid->creator)
 		{
-			$_SESSION['error'] = 'Only admins and creators can add locations for a plasmid.';
+			add_error_alert('Only admins and creators can add locations for a plasmid.');
 			redirect('plasmid/view/' . $plasmid_id);
 		}
 
@@ -61,14 +61,14 @@ class Plasmid_location extends CI_Controller {
 			
 			$this->plasmid_location_model->insert_plasmid_location($new_location);
 			
-			$_SESSION['success'] = "Location for " . $plasmid->name . " added.";
+			add_success_alert("Location for " . $plasmid->name . " added.");
 			
 			redirect('plasmid/view/' . $plasmid_id);
 			
 		}
 		
 		if (validation_errors() !== "") {
-			$_SESSION['error'] = validation_errors();
+			add_error_alert(validation_errors());
 		}
 		
 
@@ -87,7 +87,7 @@ class Plasmid_location extends CI_Controller {
 	{
 		$this->load->model('plasmid_location_model');
 		$this->plasmid_location_model->delete_plasmid_location($id);
-		$_SESSION['success'] = "Successfully removed a location.";
+		add_success_alert("Successfully removed a location.");
 		redirect('plasmid/view/' . $plasmid_id);
 	}
 	
@@ -102,7 +102,7 @@ class Plasmid_location extends CI_Controller {
 		
 		if($_SESSION['account'] !== 'admin' && $_SESSION['userid'] !== $plasmid->creator)
 		{
-			$_SESSION['error'] = 'You do not have the permission to edit this plasmid\'s location';
+			add_error_alert('You do not have the permission to edit this plasmid\'s location');
 			redirect('plasmid/view/' . $plasmid_id);
 		}
 		
@@ -128,14 +128,14 @@ class Plasmid_location extends CI_Controller {
 			
 			$this->plasmid_location_model->update_plasmid_location($id, $updated_location);
 			
-			$_SESSION['success'] = "Location for " . $plasmid->name . " successfully update.";
+			add_success_alert("Location for " . $plasmid->name . " successfully update.");
 			
 			redirect('plasmid/view/' . $plasmid_id);
 			
 		}
 		
 		if (validation_errors() !== "") {
-			$_SESSION['error'] = validation_errors();
+			add_error_alert(validation_errors());
 		}
 		
 		
@@ -145,8 +145,6 @@ class Plasmid_location extends CI_Controller {
 		$data['locations'] = $this->location_model->get_locations();
 		$data['storage_types'] = $this->option_model->get_options_hash('storage_type');
 		$data['plasmid_location'] = $this->plasmid_location_model->get_plasmid_location($id);
-		
-		//print_r($data);
 		
 		$data['title'] = 'Edit plasmid location';
 		$data['controller'] = 'plasmid_location';

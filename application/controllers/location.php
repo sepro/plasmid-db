@@ -63,7 +63,7 @@ class Location extends CI_Controller {
 	{
 		if($_SESSION['account'] !== 'admin')
 		{
-			$_SESSION['error'] = "You do not have permission to add locations.";
+			add_error_alert("You do not have permission to add locations.");
 			redirect('location');
 		}
 		
@@ -95,7 +95,7 @@ class Location extends CI_Controller {
 		}	
 		
 		if (validation_errors() !== "") {
-			$_SESSION['error'] = validation_errors();
+			add_error_alert(validation_errors());
 		}
 		
 		$data['controller'] = 'location';
@@ -121,12 +121,12 @@ class Location extends CI_Controller {
 					$this->location_model->delete_location($id);
 					redirect('location');				
 				} else {
-					$_SESSION['error'] = "Error: you do not have the permission to delete this location.";
+					add_error_alert("Error: you do not have the permission to delete this location.");
 					redirect('location');
 				}
 			} else {
 				//there are users or plasmids at this location it can't be deleted
-					$_SESSION['error'] = "Error: users or samples are associated with this location, it can't be deleted";
+					add_error_alert("Error: users or samples are associated with this location, it can't be deleted");
 					redirect('location');
 			}
 
@@ -136,7 +136,7 @@ class Location extends CI_Controller {
 	{
 		if($_SESSION['account'] !== 'admin')
 		{
-			$_SESSION['error'] = "You do not have permission to edit locations.";
+			add_error_alert("You do not have permission to edit locations.");
 			redirect('location');
 		}
 
@@ -162,12 +162,12 @@ class Location extends CI_Controller {
 				
 				$this->location_model->update_location($location_id, $record);
 				
-				$_SESSION['success'] = "Successfully updated location.";
+				add_success_alert("Successfully updated location.");
 				redirect('location');
 		}		
 		
 		if (validation_errors() !== "") {
-			$_SESSION['error'] = validation_errors();
+			add_error_alert(validation_errors());
 		}
 		
 		$location = $this->location_model->get_location($location_id);

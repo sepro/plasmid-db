@@ -38,7 +38,7 @@ class Vectormap_model extends CI_Model {
 			//check if directory is writeable
 			if(!is_writable(realpath(APPPATH . '../tmp')))
 			{
-				$_SESSION['error'] = "Directory tmp not writeable, contact the webmaster to set this up.";
+				add_error_alert("Directory tmp not writeable, contact the webmaster to set this up.");
 				return false;
 			}
 			
@@ -56,7 +56,7 @@ class Vectormap_model extends CI_Model {
 			
 			if (! $this->upload->do_upload())
 			{
-				$_SESSION['error'] = $this->upload->display_errors();
+				add_error_alert($this->upload->display_errors());
 				return false;
 			} else {
 				$img_data = $this->upload->data();
@@ -113,7 +113,7 @@ class Vectormap_model extends CI_Model {
 				
 				$this->db->insert('vectormaps', $vectormap_data);
 				
-				$_SESSION['success'] = "Vectormap successfully added !";
+				add_success_alert("Vectormap successfully added !");
 				return true;
 			}
 	}

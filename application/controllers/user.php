@@ -45,7 +45,7 @@ class User extends CI_Controller {
 			$this->load->view('view_user', $data);				
 		} else {
 			//user was not found throw error
-			$_SESSION['error'] = "ERROR: user " . $user . " not found!";
+			add_error_alert("ERROR: user " . $user . " not found!");
 			redirect('user');
 		}
 	}
@@ -89,19 +89,19 @@ class User extends CI_Controller {
 				} else {
 					if ($userData->account == 'admin')
 					{
-						$_SESSION['error'] = "Admin accounts cannot be deleted from the website.";
+						add_error_alert("Admin accounts cannot be deleted from the website.");
 						redirect('user');						
 					}
 					if ($plasmids !== false)
 					{
-						$_SESSION['error'] = "This user still is the creator of samples, first assign a new creator for these samples before deleting.";
+						add_error_alert("This user still is the creator of samples, first assign a new creator for these samples before deleting.");
 						redirect('user');						
 					}
 				
 				}
 				
 			} else {
-					$_SESSION['error'] = "You do not have the permission to delete this user.";
+					add_error_alert("You do not have the permission to delete this user.");
 					redirect('user');
 			}			
 
@@ -112,13 +112,13 @@ class User extends CI_Controller {
 	{
 		if($_SESSION['account'] !== 'admin' && $_SESSION['username'] !== $username)
 		{
-			$_SESSION['error'] = 'You do not have the permission to change this user\'s details.';
+			add_error_alert('You do not have the permission to change this user\'s details.');
 			redirect('user');
 		}
 		
 		if($this->config->item('demonstration'))
 		{
-			$_SESSION['error'] = 'Demo mode active you cannot change your credentials';
+			add_error_alert('Demo mode active you cannot change your credentials');
 			redirect('user');
 		}
 		
@@ -150,12 +150,12 @@ class User extends CI_Controller {
 			);
 				
 			$this->user_model->update_user($username, $user);
-			$_SESSION['success'] = 'User ' . $username . ' has been successfully updated.';
+			add_success_alert('User ' . $username . ' has been successfully updated.');
 			redirect('user/view/' . $username);
 		}
 		
 		if (validation_errors() !== "") {
-			$_SESSION['error'] = validation_errors();
+			add_error_alert(validation_errors());
 		}		
 		
 		$data['user'] = $user;

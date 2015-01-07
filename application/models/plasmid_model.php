@@ -195,7 +195,7 @@ class Plasmid_model extends CI_Model {
 	{
 			if(!is_writable(realpath(APPPATH . '../tmp')))
 			{
-				$_SESSION['error'] = "Directory tmp not writeable, contact the webmaster to set this up.";
+				add_error_alert("Directory tmp not writeable, contact the webmaster to set this up.");
 				return false;
 			}
 			//session should be started by controller
@@ -212,7 +212,7 @@ class Plasmid_model extends CI_Model {
 			
 			if (! $this->upload->do_upload())
 			{
-				$_SESSION['error'] = $this->upload->display_errors();
+				add_error_alert($this->upload->display_errors());
 				return false;
 			} else {
 				$sequence_data = $this->upload->data();
@@ -231,7 +231,7 @@ class Plasmid_model extends CI_Model {
 				unlink($filename);	//remove file after parsing
 				
 				
-				$_SESSION['success'] = "Sequence file successfully uploaded!";
+				add_success_alert("Sequence file successfully uploaded!");
 				return $sequence;
 			}			
 			
@@ -243,7 +243,7 @@ class Plasmid_model extends CI_Model {
 			
 			if(!is_writable(realpath(APPPATH . '../tmp')))
 			{
-				$_SESSION['error'] = "Directory tmp not writeable, contact the webmaster to set this up.";
+				add_error_alert("Directory tmp not writeable, contact the webmaster to set this up.");
 				return false;
 			}
 			
@@ -260,7 +260,7 @@ class Plasmid_model extends CI_Model {
 			
 			if (! $this->upload->do_upload())
 			{
-				$_SESSION['error'] = $this->upload->display_errors();
+				add_error_alert($this->upload->display_errors());
 				return false;
 			} else {
 				$gb_data = $this->upload->data();
@@ -280,7 +280,7 @@ class Plasmid_model extends CI_Model {
 				unlink($filename);	//remove file after parsing
 				
 				
-				$_SESSION['success'] = "GenBank file successfully uploaded!";
+				add_success_alert("GenBank file successfully uploaded!");
 				return $plasmid;
 			}
 	}
@@ -291,7 +291,7 @@ class Plasmid_model extends CI_Model {
 			
 			if(!is_writable(realpath(APPPATH . '../tmp')))
 			{
-				$_SESSION['error'] = "Directory tmp not writeable, contact the webmaster to set this up.";
+				add_error_alert("Directory tmp not writeable, contact the webmaster to set this up.");
 				return false;
 			}
 			
@@ -308,7 +308,7 @@ class Plasmid_model extends CI_Model {
 			
 			if (! $this->upload->do_upload())
 			{
-				$_SESSION['error'] = $this->upload->display_errors();
+				add_error_alert($this->upload->display_errors());
 				return false;
 			} else {
 				$embl_data = $this->upload->data();
@@ -328,7 +328,7 @@ class Plasmid_model extends CI_Model {
 				unlink($filename);	//remove file after parsing
 				
 				
-				$_SESSION['success'] = "EMBL file successfully uploaded!";
+				add_success_alert("EMBL file successfully uploaded!");
 				return $plasmid;
 			}
 	}

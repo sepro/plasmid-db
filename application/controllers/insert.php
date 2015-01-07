@@ -14,7 +14,7 @@ class Insert extends CI_Controller {
 		
 		if ($_SESSION['account'] == 'pending')
 		{
-			$_SESSION['warning'] = 'Your account is <strong>awaiting approval from an administrator</strong>, all features are disabled';
+			add_warning_alert('Your account is <strong>awaiting approval from an administrator</strong>, all features are disabled');
 			redirect('home');
 		}
 	}
@@ -67,13 +67,13 @@ class Insert extends CI_Controller {
 
 			$this->insert_model->insert_insert($record);
 			
-			$_SESSION['success'] = "Insert successfully added to the database";
+			add_success_alert("Insert successfully added to the database");
 			redirect('plasmid/view/' . $plasmid_id);
 
 		}
 		
 		if (validation_errors() !== "") {
-			$_SESSION['error'] = validation_errors();
+			add_error_alert(validation_errors());
 		}
 		
 		$data['controller'] = 'plasmid';
@@ -110,12 +110,12 @@ class Insert extends CI_Controller {
 
 			$this->insert_model->update_insert($insert_id, $record);
 			
-			$_SESSION['success'] = "Insert successfully saved to the database";
+			add_success_alert("Insert successfully saved to the database");
 			redirect('plasmid/view/' . $insert->plasmid_id);			
 		}
 		
 		if (validation_errors() !== "") {
-			$_SESSION['error'] = validation_errors();
+			add_error_alert(validation_errors());
 		}	
 		
 
@@ -131,7 +131,7 @@ class Insert extends CI_Controller {
 		$this->load->model('insert_model');
 		
 		$this->insert_model->delete_insert($insert_id);
-		$_SESSION['success'] = "Insert successfully removed from the database";
+		add_success_alert("Insert successfully removed from the database");
 		redirect('plasmid');
 		
 	}

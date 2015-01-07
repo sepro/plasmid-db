@@ -14,7 +14,7 @@ class Search extends CI_Controller {
 		
 		if ($_SESSION['account'] == 'pending')
 		{
-			$_SESSION['warning'] = 'Your account is <strong>awaiting approval from an administrator</strong>, all features are disabled';
+			add_warning_alert('Your account is <strong>awaiting approval from an administrator</strong>, all features are disabled');
 			redirect('home');
 		}
 	}
@@ -39,7 +39,7 @@ class Search extends CI_Controller {
 		}
 		
 		if (validation_errors() !== "") {
-			$_SESSION['error'] = validation_errors();
+			add_error_alert(validation_errors());
 		}
 		
 		$data['backbones'] = $this->plasmid_model->get_backbones();

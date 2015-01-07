@@ -149,18 +149,14 @@ class Plasmid extends CI_Controller {
 			{
 				//plasmid with this name already existist in the db
 				//throw error
-				$error = "plasmid with name " . $name . " already exists!";
-				$_SESSION['error'] = $error; //these errors are caught and shown by the header
-				
+				add_error_alert("plasmid with name " . $name . " already exists!");
 			} elseif ($is_backbone !== '1' && $backbone == '0') {
-				$error = "plasmid " . $name . " requires a backone different than None.";
-				$_SESSION['error'] = $error; //these errors are caught and shown by the header
-				
+				add_error_alert("plasmid " . $name . " requires a backone different than None.");
 			}else {
 				$this->plasmid_model->insert_plasmid($record);
 				
-				$_SESSION['success'] = "Plasmid $name successfully added to the database";
-				$_SESSION['info'] = "Add a location for plasmid $name";
+				add_success_alert("Plasmid $name successfully added to the database");
+				add_info_alert("Add a location for plasmid $name");
 				$plasmid_id = $this->plasmid_model->get_plasmid_id($name);
 				redirect('plasmid_location/add/' . $plasmid_id);
 			}
@@ -168,7 +164,7 @@ class Plasmid extends CI_Controller {
 		}
 		
 		if (validation_errors() !== "") {
-			$_SESSION['error'] = validation_errors();
+			add_error_alert(validation_errors());
 		}
 		
 		$data['b_res'] = $this->option_model->get_options_hash('bacterial_resistance');
@@ -200,7 +196,7 @@ class Plasmid extends CI_Controller {
 				if ($this->plasmid_model->plasmid_exists($plasmid["name"]))
 				{
 					$_SESSION['success'] = NULL;
-					$_SESSION['error'] = $_SESSION['error'] . "Cannot add this genbank file, plamid with this name already exists in database";
+					add_error_alert("Cannot add this genbank file, plamid with this name already exists in database");
 					redirect('plasmid');	
 				} else {
 					
@@ -208,20 +204,20 @@ class Plasmid extends CI_Controller {
 					{
 						$this->plasmid_model->insert_plasmid($plasmid);
 				
-						$_SESSION['success'] = "Plasmid $name successfully added to the database";
-						$_SESSION['warning'] = "Not all information could be derived from the GenBank file. <strong>Please complete where necessary !</strong>";
+						add_success_alert("Plasmid $name successfully added to the database");
+						add_warning_alert("Not all information could be derived from the GenBank file. <strong>Please complete where necessary !</strong>");
 						$plasmid_id = $this->plasmid_model->get_plasmid_id($plasmid["name"]);
 						redirect('plasmid/edit/' . $plasmid_id);						
 					} else {
 						$_SESSION['success'] = NULL;
-						$_SESSION['error'] = "No plasmid found in this file or wrong file format!";
+						add_error_alert("No plasmid found in this file or wrong file format!");
 						redirect('plasmid');
 					}
 
 				}
 			} else {
 				//an error occurred go back (the model set the error msg)
-				$_SESSION['error'] = $_SESSION['error'] + "<br/>Failed to upload GenBank file!";
+				add_error_alert("Failed to upload GenBank file!");
 				redirect('plasmid');
 			}
 					
@@ -250,7 +246,7 @@ class Plasmid extends CI_Controller {
 				if ($this->plasmid_model->plasmid_exists($plasmid["name"]))
 				{
 					$_SESSION['success'] = NULL;
-					$_SESSION['error'] = $_SESSION['error'] . "Cannot add this EMBL file, plamid with this name already exists in database";
+					add_error_alert("Cannot add this EMBL file, plamid with this name already exists in database");
 					redirect('plasmid');	
 				} else {
 					
@@ -258,20 +254,20 @@ class Plasmid extends CI_Controller {
 					{
 						$this->plasmid_model->insert_plasmid($plasmid);
 				
-						$_SESSION['success'] = "Plasmid $name successfully added to the database";
-						$_SESSION['warning'] = "Not all information could be derived from the EMBL file. <strong>Please complete where necessary !</strong>";
+						add_success_alert("Plasmid $name successfully added to the database");
+						add_warning_alert("Not all information could be derived from the EMBL file. <strong>Please complete where necessary !</strong>");
 						$plasmid_id = $this->plasmid_model->get_plasmid_id($plasmid["name"]);
 						redirect('plasmid/edit/' . $plasmid_id);						
 					} else {
 						$_SESSION['success'] = NULL;
-						$_SESSION['error'] = "No plasmid found in this file or wrong file format!";
+						add_error_alert("No plasmid found in this file or wrong file format!");
 						redirect('plasmid');
 					}
 
 				}
 			} else {
 				//an error occurred go back (the model set the error msg)
-				$_SESSION['error'] = $_SESSION['error'] + "<br/>Failed to upload EMBL file!";
+				add_error_alert("Failed to upload EMBL file!");
 				redirect('plasmid');
 			}
 					
@@ -296,7 +292,7 @@ class Plasmid extends CI_Controller {
 		
 		if($_SESSION['account'] !== 'admin' && $_SESSION['userid'] !== $plasmid->creator)
 		{
-			$_SESSION['error'] = "You do not have permission to add/change the vector map of " . $plasmid->name;
+			add_error_alert("You do not have permission to add/change the vector map of " . $plasmid->name);
 			redirect('plasmid/view/' . $plasmid_id);			
 		}
 		
@@ -331,27 +327,27 @@ class Plasmid extends CI_Controller {
 		
 		if($_SESSION['account'] !== 'admin' && $_SESSION['userid'] !== $plasmid->creator)
 		{
-			$_SESSION['error'] = "You do not have permission to remove " . $plasmid->name;
+			add_error_alert("You do not have permission to remove " . $plasmid->name);
 			redirect('plasmid');			
 		}
 		
 		
 		if($this->plasmid_location_model->get_plasmid_locations($id) !== false)
 		{
-			$_SESSION['error'] = "Cannot remove " . $plasmid->name . ", plasmid still in collection! (please delete all locations first)";
+			add_error_alert("Cannot remove " . $plasmid->name . ", plasmid still in collection! (please delete all locations first)");
 			redirect('plasmid');			
 		}
 		
 		
 		if ((int)$plasmid->is_backbone == 1 && $this->plasmid_model->get_plasmids_backbone($plasmid->plasmid_id) !== false)
 		{
-			$_SESSION['error'] = "Cannot remove " . $plasmid->name . ", plasmids based on this backbone exist.";
+			add_error_alert("Cannot remove " . $plasmid->name . ", plasmids based on this backbone exist.");
 			redirect('plasmid');
 		}
 			
 		$this->plasmid_model->delete_plasmid($id);
 		
-		$_SESSION['success'] = "Plasmid " . $plasmid->name . " successfully removed from the database.";
+		add_success_alert("Plasmid " . $plasmid->name . " successfully removed from the database.");
 		redirect('plasmid');	
 
 	}
@@ -371,7 +367,7 @@ class Plasmid extends CI_Controller {
 		
 		if($_SESSION['account'] !== 'admin' && $_SESSION['userid'] !== $plasmid->creator)
 		{
-			$_SESSION['error'] = 'You do not have the permission to edit this plasmid';
+			add_error_alert('You do not have the permission to edit this plasmid');
 			redirect('plasmid');
 		}
 		
@@ -440,16 +436,14 @@ class Plasmid extends CI_Controller {
 			
 			if ($is_backbone !== '1' && $backbone == '0') {
 				//user is stupid, make sure a correct backbone is entered for plasmid that is not flagged a backbone
-				$error = "Plasmid " . $name . " requires a backone different than None.";
-				$_SESSION['error'] = $error; //these errors are caught and shown by the header	
+				add_error_alert("Plasmid " . $name . " requires a backone different than None.");
 			} elseif($is_backbone !== '1' && $this->plasmid_model->get_plasmids_backbone($plasmid_id) !== false){
 				//user is trying to change a backbone that is used by other plasmids to non-backbone
-				$error = "Plasmid " . $name . " is used as a backbone for other plasmids and cannot be changed to non-backbone.";
-				$_SESSION['error'] = $error; //these errors are caught and shown by the header				
+				add_error_alert("Plasmid " . $name . " is used as a backbone for other plasmids and cannot be changed to non-backbone.");				
 			}else {
 				$this->plasmid_model->update_plasmid($plasmid_id, $record);
 				
-				$_SESSION['success'] = "Plasmid $name successfully updated";
+				add_success_alert("Plasmid $name successfully updated");
 				redirect('plasmid/view/' . $plasmid_id);
 			}
 
@@ -518,7 +512,7 @@ class Plasmid extends CI_Controller {
 		
 		if($_SESSION['account'] !== 'admin' && $_SESSION['userid'] !== $plasmid->creator)
 		{
-			$_SESSION['error'] = "You do not have permission to change this plasmid " . $plasmid->name;
+			add_error_alert("You do not have permission to change this plasmid " . $plasmid->name);
 			redirect('plasmid');			
 		}
 		
@@ -533,7 +527,7 @@ class Plasmid extends CI_Controller {
 		
 		if($_SESSION['account'] !== 'admin' && $_SESSION['userid'] !== $plasmid->creator)
 		{
-			$_SESSION['error'] = "You do not have permission to change this plasmid " . $plasmid->name;
+			add_error_alert("You do not have permission to change this plasmid " . $plasmid->name);
 			redirect('plasmid');			
 		}
 		
@@ -548,7 +542,7 @@ class Plasmid extends CI_Controller {
 		
 		if($_SESSION['account'] !== 'admin' && $_SESSION['userid'] !== $plasmid->creator)
 		{
-			$_SESSION['error'] = "You do not have permission to change this plasmid " . $plasmid->name;
+			add_error_alert("You do not have permission to change this plasmid " . $plasmid->name);
 			redirect('plasmid');			
 		}
 		
@@ -563,7 +557,7 @@ class Plasmid extends CI_Controller {
 		
 		if($_SESSION['account'] !== 'admin' && $_SESSION['userid'] !== $plasmid->creator)
 		{
-			$_SESSION['error'] = "You do not have permission to change this plasmid " . $plasmid->name;
+			add_error_alert("You do not have permission to change this plasmid " . $plasmid->name);
 			redirect('plasmid');			
 		}
 		
@@ -578,7 +572,7 @@ class Plasmid extends CI_Controller {
 		
 		if($_SESSION['account'] !== 'admin' && $_SESSION['userid'] !== $plasmid->creator)
 		{
-			$_SESSION['error'] = "You do not have permission to change this plasmid " . $plasmid->name;
+			add_error_alert("You do not have permission to change this plasmid " . $plasmid->name);
 			redirect('plasmid');			
 		}
 		
@@ -603,7 +597,7 @@ class Plasmid extends CI_Controller {
 		
 		if($_SESSION['account'] !== 'admin' && $_SESSION['userid'] !== $plasmid->creator)
 		{
-			$_SESSION['error'] = "You do not have permission to change this plasmid " . $plasmid->name;
+			add_error_alert("You do not have permission to change this plasmid " . $plasmid->name);
 			redirect('plasmid');			
 		}
 		
@@ -629,7 +623,7 @@ class Plasmid extends CI_Controller {
 		
 		if($_SESSION['account'] !== 'admin' && $_SESSION['userid'] !== $plasmid->creator)
 		{
-			$_SESSION['error'] = "You do not have permission to change this plasmid " . $plasmid->name;
+			add_error_alert("You do not have permission to change this plasmid " . $plasmid->name);
 			redirect('plasmid');			
 		}
 		

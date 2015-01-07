@@ -39,7 +39,7 @@ class Forgot extends CI_Controller {
 			
 			if($user == FALSE)
 			{
-				$_SESSION['error'] = "ERROR: No user found with this e-mail address: <strong>" . $email . "</strong> !";
+				add_error_alert("ERROR: No user found with this e-mail address: <strong>" . $email . "</strong> !");
 				redirect('home');
 			}
 			
@@ -47,7 +47,7 @@ class Forgot extends CI_Controller {
 			{
 				//code to recover username
 				$this->notification_model->recover_username($user->username, $email);
-				$_SESSION['success'] = "Username mailed to <strong>" . $email . "</strong> !";
+				add_success_alert("Username mailed to <strong>" . $email . "</strong> !");
 			} elseif ($action == 'password') {
 				//code to generate data to reset password
 				$key = $this->user_model->create_reset_key($user->username);
@@ -56,14 +56,14 @@ class Forgot extends CI_Controller {
 				
 				$this->notification_model->password_reset_requested($user->username, $url, $email);
 				
-				$_SESSION['success'] = "Instructions to reset password mailed to <strong>" . $email . "</strong> !";
+				add_success_alert("Instructions to reset password mailed to <strong>" . $email . "</strong> !");
 			} else {
-				$_SESSION['error'] = "ERROR: unknown action: " . $action . " !";
+				add_error_alert("ERROR: unknown action: " . $action . " !");
 			}
 		}
 		
 		if (validation_errors() !== "") {
-			$_SESSION['error'] = validation_errors();
+			add_error_alert(validation_errors());
 		}
 		
 		redirect('home');
@@ -91,10 +91,10 @@ class Forgot extends CI_Controller {
 				
 				$this->notification_model->password_reset($new_pass, $user->email);
 				
-				$_SESSION['success'] = "Password successfully reset! The new password has been mailed to you.";
+				add_success_alert("Password successfully reset! The new password has been mailed to you.");
 			}
 		} else {
-			$_SESSION['error'] = "Unable to reset password, reset key expired. Request a new key <a href=\"" . base_url() . "forgot/\">here</a>";
+			add_error_alert("Unable to reset password, reset key expired. Request a new key <a href=\"" . base_url() . "forgot/\">here</a>");
 		}
 		
 		redirect('home');			

@@ -1,34 +1,10 @@
--- phpMyAdmin SQL Dump
--- version 4.0.4
--- http://www.phpmyadmin.net
---
--- Machine: localhost
--- Genereertijd: 03 dec 2014 om 15:08
--- Serverversie: 5.6.12-log
--- PHP-versie: 5.4.12
+#
+# TABLE STRUCTURE FOR: inserts
+#
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
+DROP TABLE IF EXISTS inserts;
 
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
-
---
--- Databank: `plasmiddb`
---
-CREATE DATABASE IF NOT EXISTS `plasmiddb` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `plasmiddb`;
-
--- --------------------------------------------------------
-
---
--- Tabelstructuur voor tabel `inserts`
---
-
-CREATE TABLE IF NOT EXISTS `inserts` (
+CREATE TABLE `inserts` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(50) NOT NULL,
   `sequence` text NOT NULL,
@@ -36,44 +12,100 @@ CREATE TABLE IF NOT EXISTS `inserts` (
   `plasmid_id` int(11) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `name` (`name`),
-  KEY `inserts_ibfk_1` (`plasmid_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=9 ;
+  KEY `inserts_ibfk_1` (`plasmid_id`),
+  CONSTRAINT `inserts_ibfk_1` FOREIGN KEY (`plasmid_id`) REFERENCES `plasmids` (`plasmid_id`) ON DELETE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
 
--- --------------------------------------------------------
+INSERT INTO inserts (`id`, `name`, `sequence`, `comment`, `plasmid_id`) VALUES (8, 'First insert 2', 'Test ', 'sdf', 48);
 
---
--- Tabelstructuur voor tabel `locations`
---
 
-CREATE TABLE IF NOT EXISTS `locations` (
+#
+# TABLE STRUCTURE FOR: locations
+#
+
+DROP TABLE IF EXISTS locations;
+
+CREATE TABLE `locations` (
   `location_id` int(11) NOT NULL AUTO_INCREMENT,
   `address` text NOT NULL,
   `building` tinytext NOT NULL,
   `room` tinytext NOT NULL,
   PRIMARY KEY (`location_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=8 ;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
 
--- --------------------------------------------------------
+INSERT INTO locations (`location_id`, `address`, `building`, `room`) VALUES (1, 'Default Location', 'Default', 'Default');
 
---
--- Tabelstructuur voor tabel `options`
---
 
-CREATE TABLE IF NOT EXISTS `options` (
+
+#
+# TABLE STRUCTURE FOR: options
+#
+
+DROP TABLE IF EXISTS options;
+
+CREATE TABLE `options` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `option_name` varchar(50) NOT NULL,
   `possible_value` varchar(50) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `id` (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=23 ;
+) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=latin1;
 
--- --------------------------------------------------------
+INSERT INTO options (`id`, `option_name`, `possible_value`) VALUES (1, 'vector_type', 'ECO');
+INSERT INTO options (`id`, `option_name`, `possible_value`) VALUES (2, 'vector_type', 'SCE');
+INSERT INTO options (`id`, `option_name`, `possible_value`) VALUES (3, 'vector_type', 'PLA');
+INSERT INTO options (`id`, `option_name`, `possible_value`) VALUES (4, 'vector_type', 'IVF');
+INSERT INTO options (`id`, `option_name`, `possible_value`) VALUES (5, 'bacterial_resistance', 'None');
+INSERT INTO options (`id`, `option_name`, `possible_value`) VALUES (6, 'bacterial_resistance', 'Kanamycin');
+INSERT INTO options (`id`, `option_name`, `possible_value`) VALUES (7, 'plant_resistance', 'None');
+INSERT INTO options (`id`, `option_name`, `possible_value`) VALUES (8, 'plant_resistance', 'Basta');
+INSERT INTO options (`id`, `option_name`, `possible_value`) VALUES (9, 'storage_type', 'DNA');
+INSERT INTO options (`id`, `option_name`, `possible_value`) VALUES (10, 'storage_type', 'GlycCult');
+INSERT INTO options (`id`, `option_name`, `possible_value`) VALUES (11, 'bacterial_resistance', 'Ampicillin');
+INSERT INTO options (`id`, `option_name`, `possible_value`) VALUES (12, 'bacterial_resistance', 'Other');
+INSERT INTO options (`id`, `option_name`, `possible_value`) VALUES (13, 'bacterial_resistance', 'Carbenicillin');
+INSERT INTO options (`id`, `option_name`, `possible_value`) VALUES (14, 'bacterial_resistance', 'Chloramphenicol');
+INSERT INTO options (`id`, `option_name`, `possible_value`) VALUES (15, 'bacterial_resistance', 'Gentamycin');
+INSERT INTO options (`id`, `option_name`, `possible_value`) VALUES (16, 'bacterial_resistance', 'Hygromycin');
+INSERT INTO options (`id`, `option_name`, `possible_value`) VALUES (17, 'bacterial_resistance', 'Spectinomycin');
+INSERT INTO options (`id`, `option_name`, `possible_value`) VALUES (18, 'bacterial_resistance', 'Streptomycin');
+INSERT INTO options (`id`, `option_name`, `possible_value`) VALUES (19, 'bacterial_resistance', 'Tetracyclin');
+INSERT INTO options (`id`, `option_name`, `possible_value`) VALUES (20, 'plant_resistance', 'Geneticin 418 (G418)');
+INSERT INTO options (`id`, `option_name`, `possible_value`) VALUES (21, 'plant_resistance', 'Other');
+INSERT INTO options (`id`, `option_name`, `possible_value`) VALUES (22, 'vector_type', 'Unknown');
 
---
--- Tabelstructuur voor tabel `plasmids`
---
 
-CREATE TABLE IF NOT EXISTS `plasmids` (
+#
+# TABLE STRUCTURE FOR: plasmid_location
+#
+
+DROP TABLE IF EXISTS plasmid_location;
+
+CREATE TABLE `plasmid_location` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `plasmid_id` int(11) NOT NULL,
+  `location_id` int(11) NOT NULL,
+  `label` varchar(50) NOT NULL,
+  `comment` varchar(50) NOT NULL,
+  `storage_type` varchar(50) NOT NULL,
+  `critically_low` tinyint(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `plasmid_location_ibfk_1` (`location_id`),
+  KEY `plasmid_location_ibfk_2` (`plasmid_id`),
+  CONSTRAINT `plasmid_location_ibfk_1` FOREIGN KEY (`location_id`) REFERENCES `locations` (`location_id`),
+  CONSTRAINT `plasmid_location_ibfk_2` FOREIGN KEY (`plasmid_id`) REFERENCES `plasmids` (`plasmid_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=23 DEFAULT CHARSET=latin1;
+
+
+
+
+#
+# TABLE STRUCTURE FOR: plasmids
+#
+
+DROP TABLE IF EXISTS plasmids;
+
+CREATE TABLE `plasmids` (
   `plasmid_id` int(11) NOT NULL AUTO_INCREMENT,
   `vector_type` varchar(50) NOT NULL,
   `name` varchar(50) NOT NULL,
@@ -91,35 +123,18 @@ CREATE TABLE IF NOT EXISTS `plasmids` (
   `embl` longtext,
   PRIMARY KEY (`plasmid_id`),
   UNIQUE KEY `name` (`name`),
-  KEY `plasmids_ibfk_1` (`creator`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=92 ;
+  KEY `plasmids_ibfk_1` (`creator`),
+  CONSTRAINT `plasmids_ibfk_1` FOREIGN KEY (`creator`) REFERENCES `users` (`user_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=92 DEFAULT CHARSET=latin1;
 
--- --------------------------------------------------------
 
---
--- Tabelstructuur voor tabel `plasmid_location`
---
+#
+# TABLE STRUCTURE FOR: users
+#
 
-CREATE TABLE IF NOT EXISTS `plasmid_location` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `plasmid_id` int(11) NOT NULL,
-  `location_id` int(11) NOT NULL,
-  `label` varchar(50) NOT NULL,
-  `comment` varchar(50) NOT NULL,
-  `storage_type` varchar(50) NOT NULL,
-  `critically_low` tinyint(1) NOT NULL DEFAULT '0',
-  PRIMARY KEY (`id`),
-  KEY `plasmid_location_ibfk_1` (`location_id`),
-  KEY `plasmid_location_ibfk_2` (`plasmid_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=23 ;
+DROP TABLE IF EXISTS users;
 
--- --------------------------------------------------------
-
---
--- Tabelstructuur voor tabel `users`
---
-
-CREATE TABLE IF NOT EXISTS `users` (
+CREATE TABLE `users` (
   `user_id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(20) NOT NULL,
   `first_name` varchar(50) NOT NULL,
@@ -134,75 +149,32 @@ CREATE TABLE IF NOT EXISTS `users` (
   `reset_date` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`user_id`),
   UNIQUE KEY `username` (`username`),
-  KEY `fk_location` (`location`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=16 ;
+  KEY `fk_location` (`location`),
+  CONSTRAINT `users_ibfk_1` FOREIGN KEY (`location`) REFERENCES `locations` (`location_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
 
--- --------------------------------------------------------
+INSERT INTO users (`user_id`, `username`, `first_name`, `last_name`, `location`, `phone`, `email`, `password`, `account`, `created`, `reset_key`, `reset_date`) VALUES (1, 'admin', 'Admin', '', 1, '', '', 'd033e22ae348aeb5660fc2140aec35850c4da997', 'admin', '', '', '');
 
---
--- Stand-in structuur voor view `view_plasmids`
---
-CREATE TABLE IF NOT EXISTS `view_plasmids` (
-`plasmid_id` int(11)
-,`vector_type` varchar(50)
-,`name` varchar(50)
-,`creator` int(11)
-,`description` text
-,`sequence` longtext
-,`bacterial_resistance` varchar(50)
-,`plant_resistance` varchar(50)
-,`pubmed_id` int(11)
-,`website` varchar(100)
-,`created` datetime
-,`backbone` int(11)
-,`label` varchar(50)
-,`comment` varchar(50)
-,`storage_type` varchar(50)
-,`critically_low` tinyint(1)
-,`location_id` int(11)
-,`address` text
-,`building` tinytext
-,`room` tinytext
-,`username` varchar(20)
-);
--- --------------------------------------------------------
 
---
--- Structuur voor de view `view_plasmids`
---
-DROP TABLE IF EXISTS `view_plasmids`;
+#
+# TABLE STRUCTURE FOR: vectormaps
+#
 
-CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `view_plasmids` AS select `b`.`plasmid_id` AS `plasmid_id`,`b`.`vector_type` AS `vector_type`,`b`.`name` AS `name`,`b`.`creator` AS `creator`,`b`.`description` AS `description`,`b`.`sequence` AS `sequence`,`b`.`bacterial_resistance` AS `bacterial_resistance`,`b`.`plant_resistance` AS `plant_resistance`,`b`.`pubmed_id` AS `pubmed_id`,`b`.`website` AS `website`,`b`.`created` AS `created`,`b`.`backbone` AS `backbone`,`a`.`label` AS `label`,`a`.`comment` AS `comment`,`a`.`storage_type` AS `storage_type`,`a`.`critically_low` AS `critically_low`,`c`.`location_id` AS `location_id`,`c`.`address` AS `address`,`c`.`building` AS `building`,`c`.`room` AS `room`,`d`.`username` AS `username` from (((`plasmid_location` `a` left join `plasmids` `b` on((`a`.`plasmid_id` = `b`.`plasmid_id`))) left join `locations` `c` on((`a`.`location_id` = `c`.`location_id`))) left join `users` `d` on((`b`.`creator` = `d`.`user_id`)));
+DROP TABLE IF EXISTS vectormaps;
 
---
--- Beperkingen voor gedumpte tabellen
---
+CREATE TABLE `vectormaps` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `plasmid_id` int(11) NOT NULL,
+  `width` int(11) NOT NULL,
+  `height` int(11) NOT NULL,
+  `image_type` text NOT NULL,
+  `file_type` text NOT NULL,
+  `image_data` longblob,
+  `thumb_width` int(11) NOT NULL,
+  `thumb_height` int(11) NOT NULL,
+  `thumb_data` longblob,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
 
---
--- Beperkingen voor tabel `inserts`
---
-ALTER TABLE `inserts`
-  ADD CONSTRAINT `inserts_ibfk_1` FOREIGN KEY (`plasmid_id`) REFERENCES `plasmids` (`plasmid_id`) ON DELETE CASCADE;
 
---
--- Beperkingen voor tabel `plasmids`
---
-ALTER TABLE `plasmids`
-  ADD CONSTRAINT `plasmids_ibfk_1` FOREIGN KEY (`creator`) REFERENCES `users` (`user_id`);
 
---
--- Beperkingen voor tabel `plasmid_location`
---
-ALTER TABLE `plasmid_location`
-  ADD CONSTRAINT `plasmid_location_ibfk_1` FOREIGN KEY (`location_id`) REFERENCES `locations` (`location_id`),
-  ADD CONSTRAINT `plasmid_location_ibfk_2` FOREIGN KEY (`plasmid_id`) REFERENCES `plasmids` (`plasmid_id`);
-
---
--- Beperkingen voor tabel `users`
---
-ALTER TABLE `users`
-  ADD CONSTRAINT `users_ibfk_1` FOREIGN KEY (`location`) REFERENCES `locations` (`location_id`);
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

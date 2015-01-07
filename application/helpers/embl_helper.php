@@ -94,7 +94,6 @@ function parse_embl($content, $userid)
 					
 				}
 				
-				//$_SESSION['info'] = nl2br(print_r($data, TRUE));
 				
 				$plasmid = array(
 					'name' => $name,

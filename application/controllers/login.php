@@ -48,13 +48,13 @@ class Login extends CI_Controller {
 				redirect('home');
 				
 			} else {
-				$_SESSION['error'] = "Couldn't log in " . $this->input->post('username') . " check credentials !";
+				add_error_alert("Couldn't log in " . $this->input->post('username') . " check credentials !");
 			}
 			
 		} else {
 			if (validation_errors() !== "")
 			{
-				$_SESSION['error'] = validation_errors();
+				add_error_alert(validation_errors());
 			}			
 		}
 		

@@ -22,10 +22,10 @@ class Home extends CI_Controller {
 				$_SESSION['account'] = $user->account;
 				$_SESSION['loggedin'] = TRUE;
 				
-				$_SESSION['success'] = 'Automatically logged in as : ' . $user->username;
+				add_success_alert('Automatically logged in as : ' . $user->username);
 			
 			} else {
-				$_SESSION['error'] = 'Could not login user ' . $this->config->item('autologinuser') . ' automatically, user not found!';
+				add_error_alert('Could not login user ' . $this->config->item('autologinuser') . ' automatically, user not found!');
 			}
 			
 			
@@ -38,7 +38,7 @@ class Home extends CI_Controller {
 		
 		if ($_SESSION['account'] == 'pending')
 		{
-			$_SESSION['warning'] = 'Your account is <strong>awaiting approval from an administrator</strong>, all features are disabled';
+			add_warning_alert('Your account is <strong>awaiting approval from an administrator</strong>, all features are disabled');
 		}
 	
 		

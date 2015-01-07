@@ -9,7 +9,7 @@ class Info extends CI_Controller {
 		
 		if (!isset($_SESSION['username']))
 		{
-			$_SESSION['warning'] = 'You are currently not logged in ! To use the platform log in or register.';
+			add_warning_alert('You are currently not logged in ! To use the platform log in or register.');
 		}
 		
 

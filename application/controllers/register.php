@@ -37,7 +37,7 @@ class Register extends CI_Controller {
 			//passed initial validation, do additional checks and add user to databas
 			if($this->input->post('password') !== $this->input->post('confirm'))
 			{
-				$_SESSION['error'] = "Password doesn't match confirmation!";
+				add_error_alert("Password doesn't match confirmation!");
 
 			} else {
 				$user = array (
@@ -67,7 +67,7 @@ class Register extends CI_Controller {
 		}
 		
 		if (validation_errors() !== "") {
-			$_SESSION['error'] = validation_errors();
+			add_error_alert(validation_errors());
 		}				
 		
 		$data['locations'] = $this->location_model->get_locations();

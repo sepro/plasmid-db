@@ -15,7 +15,7 @@ class Admin extends CI_Controller {
 		//Only permit people with an admin account to view this page
 		if ($_SESSION['account'] != 'admin')
 		{
-			$_SESSION['warning'] = 'Only administrators can access this page!';
+			add_warning_alert('Only administrators can access this page!');
 			redirect('home');
 		}	
 	}
@@ -43,7 +43,7 @@ class Admin extends CI_Controller {
 		
 		$this->option_model->delete_option($id);
 		
-		$_SESSION['success'] = "Successfully removed option!";
+		add_success_alert("Successfully removed option!");
 		redirect('admin');
 	}
 	
@@ -64,14 +64,14 @@ class Admin extends CI_Controller {
 			
 			if (!$this->option_model->add_option($option_name, $option_value))
 			{
-				$_SESSION['success'] = "Successfully added option!";
+				add_success_alert("Successfully added option!");
 			} else {
-				$_SESSION['error'] = "Cannot add this option! Reason: Option exists already.";
+				add_error_alert("Cannot add this option! Reason: Option exists already.");
 			}
 		}
 		
 		if (validation_errors() !== "") {
-			$_SESSION['error'] = validation_errors();
+			add_error_alert(validation_errors());
 		}
 		
 		redirect('admin');
@@ -96,11 +96,11 @@ class Admin extends CI_Controller {
 			$new_user = $this->input->post('new_user');
 			
 			$this->plasmid_model->transfer_plasmids($original_user, $new_user);
-			$_SESSION['success'] = "Transfered plasmids from " . $users[$original_user] . " to " . $users[$new_user] . ".";
+			add_success_alert("Transfered plasmids from " . $users[$original_user] . " to " . $users[$new_user] . ".");
 		}
 		
 		if (validation_errors() !== "") {
-			$_SESSION['error'] = validation_errors();
+			add_error_alert(validation_errors());
 		}
 		
 		redirect('admin');
@@ -125,11 +125,11 @@ class Admin extends CI_Controller {
 			$new_location = $this->input->post('new_location');
 			
 			$this->plasmid_location_model->transfer_plasmids_location($original_location, $new_location);
-			$_SESSION['success'] = "Transfered plasmids from " . $locations[$original_location] . " to " . $locations[$new_location] . ".";
+			add_success_alert("Transfered plasmids from " . $locations[$original_location] . " to " . $locations[$new_location] . ".");
 		}
 		
 		if (validation_errors() !== "") {
-			$_SESSION['error'] = validation_errors();
+			add_error_alert(validation_errors());
 		}
 		
 		redirect('admin');
@@ -157,7 +157,7 @@ class Admin extends CI_Controller {
 		{
 			if(!is_writable(realpath(APPPATH . '../tmp')))
 			{
-				$_SESSION['error'] = "Directory tmp not writeable, contact the webmaster to set this up.";
+				add_error_alert("Directory tmp not writeable, contact the webmaster to set this up.");
 				redirect('admin');
 			}
 			
@@ -173,7 +173,7 @@ class Admin extends CI_Controller {
 			
 			if (! $this->upload->do_upload())
 			{
-				$_SESSION['error'] = $this->upload->display_errors();
+				add_error_alert($this->upload->display_errors());
 			} else {
 				$sql_data = $this->upload->data();
 				
@@ -218,7 +218,7 @@ class Admin extends CI_Controller {
 				
 				unlink($sql_data['full_path']);
 				
-				$_SESSION['success'] = "Succesfully imported " . $sql_data['file_name'];
+				add_success_alert("Succesfully imported " . $sql_data['file_name']);
 			}
 			
 			
