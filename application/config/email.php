@@ -47,7 +47,7 @@ $config['bcc_batch_size']   = 200;
 
 $config['send_notifications'] = FALSE;
 $config['notification_from'] = 'you@yourmail.com';
-$config['notification_to'] = you@yourmail.com';
+$config['notification_to'] = 'you@yourmail.com';
 
 /* End of file email.php */
 /* Location: ./system/application/config/email.php */  
