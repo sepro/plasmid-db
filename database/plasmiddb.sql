@@ -16,8 +16,6 @@ CREATE TABLE `inserts` (
   CONSTRAINT `inserts_ibfk_1` FOREIGN KEY (`plasmid_id`) REFERENCES `plasmids` (`plasmid_id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
 
-INSERT INTO inserts (`id`, `name`, `sequence`, `comment`, `plasmid_id`) VALUES (8, 'First insert 2', 'Test ', 'sdf', 48);
-
 
 #
 # TABLE STRUCTURE FOR: locations
@@ -34,7 +32,6 @@ CREATE TABLE `locations` (
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
 
 INSERT INTO locations (`location_id`, `address`, `building`, `room`) VALUES (1, 'Default Location', 'Default', 'Default');
-
 
 
 #
