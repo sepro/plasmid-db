@@ -30,7 +30,7 @@
           <ul class="nav navbar-nav">
             <?php if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == TRUE) { ?>
             <li<?php if ($controller == 'home') { ?> class="active"<?php }?>><a href="<?php echo base_url(); ?>home">Home</a></li>
-            <li<?php if ($controller == 'plasmid') { ?> class="active"<?php }?>><a href="<?php echo base_url(); ?>plasmid">Plasmids</a></li>
+            <li<?php if ($controller == 'plasmid') { ?> class="active"<?php }?>><a href="<?php echo base_url(); ?>plasmid/page">Plasmids</a></li>
             <li<?php if ($controller == 'user') { ?> class="active"<?php }?>><a href="<?php echo base_url(); ?>user">Users</a></li>
             <li<?php if ($controller == 'location') { ?> class="active"<?php }?>><a href="<?php echo base_url(); ?>location">Locations</a></li>
             <?php }?>

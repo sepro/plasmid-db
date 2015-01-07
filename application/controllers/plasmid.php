@@ -19,8 +19,14 @@ class Plasmid extends CI_Controller {
 
 	public function index()
 	{
-
-		$this->all();
+		if (isset($_SESSION['last_plasmid_page']))
+		{
+			$page = $_SESSION['last_plasmid_page'];
+			unset($_SESSION['last_plasmid_page']);
+			redirect('plasmid/page/'.$page);
+		} else {
+			redirect('plasmid/page/');
+		}
 	}
 	
 	public function view($id)
@@ -58,7 +64,7 @@ class Plasmid extends CI_Controller {
 	{
 		$this->load->model('plasmid_model');
 		
-		$data['use_pagination'] = true;
+		$data['use_pagination'] = false;
 		$data['plasmids'] = $this->plasmid_model->get_plasmids_from_location($location_id);
 		$data['backbones'] = $this->plasmid_model->get_backbones();
 		$data['controller'] = 'plasmid';
@@ -95,11 +101,11 @@ class Plasmid extends CI_Controller {
 			$count = count($all_plasmids);
 			$visable_plasmids = array_slice($all_plasmids, $page, $items_per_page);
 			
-			if ($page >= $count && $count > 0)
+			if (($page >= $count && $count > 0) || (($count + 2 - $items_per_page < $page) && ($page > 0)))
 			{
-				redirect('plasmid/page/0');
+				redirect('plasmid/page/');
 			} else {
-				
+				$_SESSION['last_plasmid_page'] = $page;
 				$this->load->library('pagination');
 
 				$config['base_url'] = base_url() . 'plasmid/page/';

@@ -15,4 +15,4 @@ $config['autologinuser']	= 'autouser';
 
 $config['demonstration']	= FALSE;
 
-$config['plasmids_per_page']= 10; 
+$config['plasmids_per_page']= 25; 
