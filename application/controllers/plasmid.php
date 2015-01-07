@@ -58,6 +58,7 @@ class Plasmid extends CI_Controller {
 	{
 		$this->load->model('plasmid_model');
 		
+		$data['use_pagination'] = true;
 		$data['plasmids'] = $this->plasmid_model->get_plasmids_from_location($location_id);
 		$data['backbones'] = $this->plasmid_model->get_backbones();
 		$data['controller'] = 'plasmid';
@@ -70,11 +71,74 @@ class Plasmid extends CI_Controller {
 	{
 		$this->load->model('plasmid_model');
 		
+		$data['use_pagination'] = false;
 		$data['plasmids'] = $this->plasmid_model->list_plasmids();
 		$data['backbones'] = $this->plasmid_model->get_backbones();
 		$data['controller'] = 'plasmid';
 		$data['title'] = "Plasmids";
 		$this->load->view('view_plasmids', $data);			
+	}
+	
+	public function page($page = 0)
+	{
+		$this->load->model('plasmid_model');
+		
+		$items_per_page = $this->config->item('plasmids_per_page');
+		
+		$all_plasmids = $this->plasmid_model->list_plasmids();
+		
+		//in case the database is empty go to this which hides pagination and handles this
+		if($all_plasmids == false)
+		{
+			redirect('plasmid/all');
+		} else {
+			$count = count($all_plasmids);
+			$visable_plasmids = array_slice($all_plasmids, $page, $items_per_page);
+			
+			if ($page >= $count && $count > 0)
+			{
+				redirect('plasmid/page/0');
+			} else {
+				
+				$this->load->library('pagination');
+
+				$config['base_url'] = base_url() . 'plasmid/page/';
+				$config['total_rows'] = $count;
+				$config['per_page'] = $items_per_page;
+				
+				$config['full_tag_open'] = "<nav><ul class=\"pagination\">\n";
+				$config['full_tag_close'] = "</ul></nav>\n";
+				
+				$config['num_tag_open'] = '<li>';
+				$config['num_tag_close'] = "</li>\n";
+				
+				$config['cur_tag_open'] = '<li class="active"><a href="#">';
+				$config['cur_tag_close'] = "</a></li>\n";
+
+				$config['first_tag_open'] = '<li>';
+				$config['first_tag_close'] = "</li>\n";
+				
+				$config['last_tag_open'] = '<li>';
+				$config['last_tag_close'] = "</li>\n";
+				
+				$config['prev_tag_open'] = '<li>';
+				$config['prev_tag_close'] = "</li>\n";
+				
+				$config['next_tag_open'] = '<li>';
+				$config['next_tag_close'] = "</li>\n";
+				
+				$this->pagination->initialize($config);
+
+				$data['use_pagination'] = true;
+				$data['pagination_links'] =	$this->pagination->create_links();
+				
+				$data['plasmids'] = $visable_plasmids;
+				$data['backbones'] = $this->plasmid_model->get_backbones();
+				$data['controller'] = 'plasmid';
+				$data['title'] = "Plasmids";
+				$this->load->view('view_plasmids', $data);	
+			}
+		}
 	}
 
 	public function add()
