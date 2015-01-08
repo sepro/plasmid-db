@@ -101,7 +101,7 @@ class Plasmid extends CI_Controller {
 			$count = count($all_plasmids);
 			$visable_plasmids = array_slice($all_plasmids, $page, $items_per_page);
 			
-			if (($page >= $count && $count > 0) || (($count + 2 - $items_per_page < $page) && ($page > 0)))
+			if ($page >= $count && $count > 0)
 			{
 				redirect('plasmid/page/');
 			} else {
