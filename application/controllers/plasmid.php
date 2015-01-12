@@ -549,8 +549,10 @@ class Plasmid extends CI_Controller {
 		
 		$plasmid = $this->plasmid_model->get_plasmid($plasmid_id);
 		
-		$data['filename'] = "sequence.txt";
+		$data['filename'] = $plasmid->name . ".fasta";
+		$data['name'] = $plasmid->name;
 		$data['content'] = $plasmid->sequence;
+		
 		$this->load->view('file/text_file', $data);
 	}
 	
