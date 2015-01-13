@@ -19,7 +19,7 @@
 				<?php } ?>				
 				<p><strong>Created:</strong> <?php echo $plasmid->created;?></p>
 				<p><strong>Resistance</strong></p>
-				<p>Bactrial resistance: <?php echo $plasmid->bacterial_resistance;?><br />Plant resistance: <?php echo $plasmid->plant_resistance;?></p>
+				<p>Bacterial resistance: <?php echo $plasmid->bacterial_resistance;?><br />Plant resistance: <?php echo $plasmid->plant_resistance;?></p>
 				</div>
 				<div class="col-sm-6 nopadding">
 				<?php if ($has_vectormap) { ?>
