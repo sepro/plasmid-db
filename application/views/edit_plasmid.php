@@ -89,11 +89,16 @@
           		<div class="col-sm-9"><?php echo form_dropdown('v_type', $v_type, $plasmid->vector_type, 'id="v_type" class="form-control"'); ?></div>
 
           		<?php echo form_label('Bacterial resistance', 'b_res', array( 'class' => 'col-sm-3 control-label')); ?>
-          		<div class="col-sm-3"><?php echo form_dropdown('b_res', $b_res, $plasmid->bacterial_resistance, 'id="b_res" class="form-control"'); ?></div>
+          		<div class="col-sm-3"><?php 
+          			$b_res_selected = explode(";", $plasmid->bacterial_resistance);
+          			echo form_multiselect('b_res[]', $b_res, $b_res_selected, 'id="b_res" class="form-control"'); ?></div>
 
           		<?php echo form_label('Plant resistance', 'p_res', array( 'class' => 'col-sm-3 control-label')); ?>
-          		<div class="col-sm-3"><?php echo form_dropdown('p_res', $p_res,  $plasmid->plant_resistance, 'id="p_res" class="form-control"'); ?></div>
+          		<div class="col-sm-3"><?php 
+          			$p_res_selected = explode(";", $plasmid->plant_resistance);
+          			echo form_multiselect('p_res[]', $p_res,  $p_res_selected, 'id="p_res" class="form-control"');
 
+          		?></div>
           		<?php echo form_label('Description', 'description', array( 'class' => 'col-sm-12 control-label')); ?>
           		<div class="col-sm-12"><?php echo form_textarea('description', $plasmid->description, 'id="description" placeholder="Description" class="form-control"'); ?></div>
 				

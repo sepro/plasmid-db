@@ -75,9 +75,9 @@
           		<div class="col-sm-3"><?php 
           		
           		if (set_value('b_res') == '') {			
-					echo form_dropdown('b_res', $b_res, 'None', 'id="b_res" class="form-control"');
+					echo form_multiselect('b_res[]', $b_res, 'None', 'id="b_res" class="form-control"');
 				} else {
-					echo form_dropdown('b_res', $b_res, set_value('b_res'), 'id="b_res" class="form-control"');
+					echo form_multiselect('b_res[]', $b_res, $this->input->post('b_res'), 'id="b_res" class="form-control"');
 				}
           		
           		 ?></div>
@@ -86,9 +86,9 @@
           		<div class="col-sm-3"><?php
 
           		if(set_value('p_res') == '') {
-					echo form_dropdown('p_res', $p_res, 'None', 'id="p_res" class="form-control"');
+					echo form_multiselect('p_res[]', $p_res, 'None', 'id="p_res" class="form-control"');
 				} else {
-					echo form_dropdown('p_res', $p_res, set_value('p_res'), 'id="p_res" class="form-control"');
+					echo form_multiselect('p_res[]', $p_res, $this->input->post('p_res'), 'id="p_res" class="form-control"');
 				} ?></div>
 
           		<?php echo form_label('Description', 'description', array( 'class' => 'col-sm-12 control-label')); ?>

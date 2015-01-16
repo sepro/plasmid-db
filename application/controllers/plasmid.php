@@ -207,8 +207,8 @@ class Plasmid extends CI_Controller {
 				'is_backbone' => $is_backbone,
 				'pubmed_id' => $publication,
 				'website' => $website,
-				'bacterial_resistance' => $bacterial_resistance,
-				'plant_resistance' => $plant_resistance,
+				'bacterial_resistance' => implode(";", $bacterial_resistance),
+				'plant_resistance' => implode(";", $plant_resistance),
 				'description' => $description,
 				'backbone' => $backbone
 			);
@@ -495,8 +495,8 @@ class Plasmid extends CI_Controller {
 				'is_backbone' => $is_backbone,
 				'pubmed_id' => $publication,
 				'website' => $website,
-				'bacterial_resistance' => $bacterial_resistance,
-				'plant_resistance' => $plant_resistance,
+				'bacterial_resistance' => implode(";", $bacterial_resistance),
+				'plant_resistance' => implode(";", $plant_resistance),
 				'description' => $description,
 				'sequence' => $sequence,
 				'backbone' => $backbone,
@@ -521,7 +521,7 @@ class Plasmid extends CI_Controller {
 		}
 
 		if (validation_errors() !== "") {
-			$_SESSION['error'] = validation_errors();
+			add_error_alert(validation_errors());
 		}
 
 	
@@ -530,10 +530,12 @@ class Plasmid extends CI_Controller {
 		$data['v_type'] = $this->option_model->get_options_hash('vector_type');
 		$data['users'] = $this->user_model->get_users_by_id();
 		$backbones = $this->plasmid_model->get_backbones();
+		
 		//make sure it isn't possible to assing a backbone to itself
 		if (isset($backbones[$plasmid_id])) {
 			unset($backbones[$plasmid_id]);
 		}
+		
 		$data['backbones'] = $backbones;
 		
 		$data['plasmid'] = $plasmid;
