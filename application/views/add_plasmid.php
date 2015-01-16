@@ -103,7 +103,7 @@
     				'id' => 'submit',
     				'value' => 'true',
     				'type' => 'submit',
-    				'content' => '<span class="glyphicon glyphicon-plus"></span> Add plastid',
+    				'content' => '<span class="glyphicon glyphicon-plus"></span> Add plasmid',
     				'class' => 'btn btn-success'
 				);
           		echo form_button($data); ?>
