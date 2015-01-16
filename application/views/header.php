@@ -59,6 +59,8 @@
 				<li><a href="<?php echo base_url(); ?>admin/">Admin Panel</a></li>
 				<li class="divider"></li>
 			<?php } ?>
+			<li><a href="<?php echo base_url(); ?>user/view/<?php echo $_SESSION['username']; ?>">My profile</a></li>
+			<li class="divider"></li>
             <li><a href="<?php echo base_url(); ?>user/edit/<?php echo $_SESSION['username']; ?>">Edit profile</a></li>
             <li><a href="<?php echo base_url(); ?>password/change/">Change password</a></li>
             <li class="divider"></li>
