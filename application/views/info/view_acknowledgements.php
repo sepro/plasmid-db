@@ -10,7 +10,7 @@
 			</div>
 			<div class="logos">
 				<a href="http://www.dfg.de/en/"><img src="<?php echo base_url(); ?>img/logos/dfg.jpg" /></a>
-				<a href="http://www.uni-potsdam.de/en/"><img src="<?php echo base_url(); ?>img/logos/UPotsdam.png" /></a>
+				<a href="http://www.uni-potsdam.de/en/"><img src="<?php echo base_url(); ?>img/logos/upotsdam.png" /></a>
 				<a href="http://www.mpimp-golm.mpg.de/2168/en"><img src="<?php echo base_url(); ?>img/logos/mpimp.jpg" /></a>
 			</div>
 			<div class="software">Without the open source projects listed below the development of Plasmid DB would have been difficult if not impossible:</div>

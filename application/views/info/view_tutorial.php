@@ -34,7 +34,7 @@
   						<div class="row">
 							<div class="col-xs-8 col-lg-9">
 							<h4>Wait for approval</h4>
-							<p>To avoid outsiders to register and view the plasmid collection, new users need to be approved by an administrator. Administators are automatically notified if a new user registers and you will get an email as soon as the account is approved.</p>
+							<p>To avoid outsiders to register and view the plasmid collection, new users need to be approved by an administrator. Administrators are automatically notified if a new user registers and you will get an email as soon as the account is approved.</p>
 							</div>
   							<div class="col-xs-4 col-lg-3">
     						<a href="img/tutorial/01_pending_user.png" class="thumbnail">
@@ -49,7 +49,7 @@
   						<div class="row">
  							<div class="col-xs-8 col-lg-9">
 							<h4>Change credentials</h4>
-							<p>If you need to check your type of account or wish to change your credentials you can click your name in the top right corner of the menu bar. Note you can only change your settings after your account has been approved !</p>
+							<p>If you need to check your type of account or wish to change your credentials you can click your name in the top right corner of the menu bar. Note you can only change your settings after your account has been approved!</p>
 							</div>
   							<div class="col-xs-4 col-lg-3">
     						<a href="img/tutorial/01_change_credentials.png" class="thumbnail">
@@ -68,7 +68,7 @@
   						<div class="row">
 							<div class="col-xs-8 col-lg-9">
 							<h4>Adding a plasmid</h4>
-							<p>First click the <strong>Plasmids</strong> button in the menu bar to go to the overview of all plasmids in the database. If you have sufficient rights to add plasmids (users and admins) a button <strong>Add Plasmid</strong> is available on the bottome of the page. You can click the button to add plasmid information manually, or you can click the triangle to see other options. Using these options you can directly upload a genbank or EMBL file and the platform will extract as much information as possible automatically. Though even when adding a plasmid manually, it is possible to add such a file later.</p>
+							<p>First click the <strong>Plasmids</strong> button in the menu bar to go to the overview of all plasmids in the database. If you have sufficient rights to add plasmids (users and admins) a button <strong>Add Plasmid</strong> is available on the bottom of the page. You can click the button to add plasmid information manually, or you can click the triangle to see other options. Using these options you can directly upload a GenBank or EMBL file and the platform will extract as much information as possible automatically. Though even when adding a plasmid manually, it is possible to add such a file later.</p>
 							</div>
   							<div class="col-xs-4 col-lg-3">
     						<a href="img/tutorial/02_add_plasmid.png" class="thumbnail">
@@ -117,7 +117,7 @@
   						<div class="row">
 							<div class="col-xs-8 col-lg-9">
 							<h4>Administrator accounts</h4>
-							<p>Administators can change all data included in the platform (also for plasmids they didn't enter themselves). Additionally through a special admin panel they can also perform bulk actions easier, add options (e.g. for resistances) and download/restore backups.</p>
+							<p>Administrators can change all data included in the platform (also for plasmids they didn't enter themselves). Additionally through a special admin panel they can also perform bulk actions easier, add options (e.g. for resistances) and download/restore backups.</p>
 							</div>
   							<div class="col-xs-4 col-lg-3">
     						<a href="img/tutorial/03_admin_user.png" class="thumbnail">
