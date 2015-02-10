@@ -33,7 +33,7 @@
 						<td><a href="<?php echo base_url(); ?>plasmid/view/<?php echo $plasmid->backbone;?>"><?php echo $backbones[$plasmid->backbone];?></a></td>
 						<?php } ?>
 						<td>
-							<?php if ($_SESSION['account'] == 'admin'  || $_SESSION['userid'] == $plasmid->creator) { ?>
+							<?php if ($_SESSION['account'] != 'guest' && ($_SESSION['account'] == 'admin'  || $_SESSION['userid'] == $plasmid->creator)) { ?>
 								<a href="<?php echo base_url(); ?>plasmid/edit/<?php echo $plasmid->plasmid_id;?>"><span class="glyphicon glyphicon-edit"></span></a>
 								<a href="<?php echo base_url(); ?>plasmid/delete/<?php echo $plasmid->plasmid_id;?>" onclick="return confirm('Warning! Continuing will delete plasmid <?php echo $plasmid->name; ?>.')"><span class="glyphicon glyphicon-trash"></span></a>
 							<?php } else {?>
@@ -58,7 +58,7 @@
 				echo $pagination_links;
 			} ?>
 			
-			<?php if($_SESSION['account'] == 'admin' || $_SESSION['account'] == 'user') { ?>
+			<?php if($_SESSION['account'] != 'guest' && ($_SESSION['account'] == 'admin' || $_SESSION['account'] == 'user')) { ?>
 			<div class="btn-group">
 			<a href="<?php echo base_url(); ?>plasmid/add/" class="btn btn-primary btn"><span class="glyphicon glyphicon-plus"></span> Add plasmid</a>
   			<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">

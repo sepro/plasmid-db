@@ -73,7 +73,7 @@
 
 							
 
-     		<?php if($_SESSION['account'] == 'admin' || $_SESSION['userid'] == $plasmid->creator) { ?>
+     		<?php if($_SESSION['account'] != 'guest' && ($_SESSION['account'] == 'admin' || $_SESSION['userid'] == $plasmid->creator)) { ?>
 			<div class="clearfix">
 			<a href="<?php echo base_url(); ?>plasmid/edit/<?php echo $plasmid->plasmid_id; ?>"class="btn btn-primary btn"><span class="glyphicon glyphicon-edit"></span> Edit plasmid</a>
 			<div class="btn-group">
@@ -126,7 +126,7 @@
 						<td><a href="<?php echo base_url(); ?>insert/view/<?php echo $insert->id;?>"><?php echo $insert->name;?></a></td>
 						<td><?php echo $insert->comment;?></td>
 						<td>
-							<?php if ($_SESSION['account'] == 'admin' || $_SESSION['userid'] == $plasmid->creator) { ?>
+							<?php if ($_SESSION['account'] != 'guest' && ($_SESSION['account'] == 'admin' || $_SESSION['userid'] == $plasmid->creator)) { ?>
 							<a href="<?php echo base_url(); ?>insert/edit/<?php echo $insert->id;?>"><span class="glyphicon glyphicon-edit"></span></a>
 							<a href="<?php echo base_url(); ?>insert/delete/<?php echo $insert->id;?>" onclick="return confirm('Warning! Continuing will delete Insert.')"><span class="glyphicon glyphicon-trash"></span></a> <?php } else {?>
 							<span class="glyphicon glyphicon-edit disabled"></span>
@@ -144,7 +144,7 @@
 										
 				<?php }?>
 				</div>	
-				<?php if (($_SESSION['account'] == 'admin' || $_SESSION['userid'] == $plasmid->creator) && $plasmid->is_backbone == FALSE) { ?>
+				<?php if (($_SESSION['account'] == 'admin' || $_SESSION['userid'] == $plasmid->creator) && $plasmid->is_backbone == FALSE && $_SESSION['account'] != 'guest') { ?>
 					<div class="clearfix">
 					<a href="<?php echo base_url(); ?>insert/add/<?php echo $plasmid->plasmid_id; ?>"class="btn btn-primary btn"><span class="glyphicon glyphicon-plus"></span> Add insert</a>
 					</div>
@@ -195,7 +195,7 @@
 					</div>				
 				<?php }?>
 			</div>
-			<?php if($_SESSION['account'] == 'admin' || $_SESSION['userid'] == $plasmid->creator) { ?>
+			<?php if($_SESSION['account'] != 'guest' && ($_SESSION['account'] == 'admin' || $_SESSION['userid'] == $plasmid->creator)) { ?>
 			<div class="clearfix">
 			<a href="<?php echo base_url(); ?>plasmid_location/add/<?php echo $plasmid->plasmid_id; ?>"class="btn btn-primary btn"><span class="glyphicon glyphicon-plus"></span> Add Location</a></div>
 			<?php }?>			
